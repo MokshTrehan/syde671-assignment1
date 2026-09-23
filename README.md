@@ -2,6 +2,6 @@
 
 Project webpage for color-channel alignment of Prokudin-Gorskii photographs.
 
-Includes L2 and NCC baselines, image pyramids, edge alignment, automatic cropping, white balance, and contrast improvements. Source and archive attribution are included in the report.
+Includes L2 and NCC baselines, improved intensity pyramids with per-level standardization and full-pixel scoring, smoothed-edge alignment with subpixel refinement, automatic cropping, white balance, and contrast improvements. Source and archive attribution are included in the report.
 
 Publish from the main branch root using GitHub Pages.
