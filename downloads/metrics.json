@@ -1,0 +1,8423 @@
+[
+  {
+    "id": "00056v",
+    "group": "provided",
+    "channel_shape": [
+      341,
+      398
+    ],
+    "methods": {
+      "single_ncc": {
+        "green": [
+          1,
+          6
+        ],
+        "red": [
+          1,
+          13
+        ],
+        "alignment_seconds": 0.5133,
+        "overlap_box": [
+          1,
+          13,
+          398,
+          341
+        ],
+        "trace_green": [
+          {
+            "level": 0,
+            "shape": [
+              341,
+              398
+            ],
+            "shift": [
+              1,
+              6
+            ],
+            "score": 0.9542873305905432,
+            "sampling_step": 1,
+            "radius": 25
+          }
+        ],
+        "trace_red": [
+          {
+            "level": 0,
+            "shape": [
+              341,
+              398
+            ],
+            "shift": [
+              1,
+              13
+            ],
+            "score": 0.9394537167342245,
+            "sampling_step": 1,
+            "radius": 25
+          }
+        ]
+      },
+      "single_l2": {
+        "green": [
+          1,
+          6
+        ],
+        "red": [
+          1,
+          13
+        ],
+        "alignment_seconds": 0.327,
+        "overlap_box": [
+          1,
+          13,
+          398,
+          341
+        ],
+        "trace_green": [
+          {
+            "level": 0,
+            "shape": [
+              341,
+              398
+            ],
+            "shift": [
+              1,
+              6
+            ],
+            "score": -0.03235077776946628,
+            "sampling_step": 1,
+            "radius": 25
+          }
+        ],
+        "trace_red": [
+          {
+            "level": 0,
+            "shape": [
+              341,
+              398
+            ],
+            "shift": [
+              1,
+              13
+            ],
+            "score": -0.04262770138473938,
+            "sampling_step": 1,
+            "radius": 25
+          }
+        ]
+      },
+      "pyramid_ncc": {
+        "green": [
+          1,
+          6
+        ],
+        "red": [
+          1,
+          13
+        ],
+        "alignment_seconds": 0.0735,
+        "overlap_box": [
+          1,
+          13,
+          398,
+          341
+        ],
+        "trace_green": [
+          {
+            "level": 1,
+            "shape": [
+              171,
+              199
+            ],
+            "shift": [
+              1,
+              3
+            ],
+            "score": 0.9649490192048359,
+            "sampling_step": 1,
+            "radius": 15
+          },
+          {
+            "level": 0,
+            "shape": [
+              341,
+              398
+            ],
+            "shift": [
+              1,
+              6
+            ],
+            "score": 0.9542873305905432,
+            "sampling_step": 1,
+            "radius": 2
+          }
+        ],
+        "trace_red": [
+          {
+            "level": 1,
+            "shape": [
+              171,
+              199
+            ],
+            "shift": [
+              0,
+              6
+            ],
+            "score": 0.9477297373202669,
+            "sampling_step": 1,
+            "radius": 15
+          },
+          {
+            "level": 0,
+            "shape": [
+              341,
+              398
+            ],
+            "shift": [
+              1,
+              13
+            ],
+            "score": 0.9394537167342245,
+            "sampling_step": 1,
+            "radius": 2
+          }
+        ]
+      },
+      "pyramid_l2": {
+        "green": [
+          1,
+          6
+        ],
+        "red": [
+          1,
+          13
+        ],
+        "alignment_seconds": 0.0465,
+        "overlap_box": [
+          1,
+          13,
+          398,
+          341
+        ],
+        "trace_green": [
+          {
+            "level": 1,
+            "shape": [
+              171,
+              199
+            ],
+            "shift": [
+              1,
+              3
+            ],
+            "score": -0.024469436345849253,
+            "sampling_step": 1,
+            "radius": 15
+          },
+          {
+            "level": 0,
+            "shape": [
+              341,
+              398
+            ],
+            "shift": [
+              1,
+              6
+            ],
+            "score": -0.03235077776946628,
+            "sampling_step": 1,
+            "radius": 2
+          }
+        ],
+        "trace_red": [
+          {
+            "level": 1,
+            "shape": [
+              171,
+              199
+            ],
+            "shift": [
+              0,
+              6
+            ],
+            "score": -0.03632382529328492,
+            "sampling_step": 1,
+            "radius": 15
+          },
+          {
+            "level": 0,
+            "shape": [
+              341,
+              398
+            ],
+            "shift": [
+              1,
+              13
+            ],
+            "score": -0.04262770138473938,
+            "sampling_step": 1,
+            "radius": 2
+          }
+        ]
+      },
+      "edges_ncc": {
+        "green": [
+          1,
+          6
+        ],
+        "red": [
+          1,
+          13
+        ],
+        "alignment_seconds": 0.0816,
+        "overlap_box": [
+          1,
+          13,
+          398,
+          341
+        ],
+        "trace_green": [
+          {
+            "level": 1,
+            "shape": [
+              171,
+              199
+            ],
+            "shift": [
+              1,
+              3
+            ],
+            "score": 0.7375082518277443,
+            "sampling_step": 1,
+            "radius": 15
+          },
+          {
+            "level": 0,
+            "shape": [
+              341,
+              398
+            ],
+            "shift": [
+              1,
+              6
+            ],
+            "score": 0.691085274646334,
+            "sampling_step": 1,
+            "radius": 2
+          }
+        ],
+        "trace_red": [
+          {
+            "level": 1,
+            "shape": [
+              171,
+              199
+            ],
+            "shift": [
+              0,
+              6
+            ],
+            "score": 0.7197310580888621,
+            "sampling_step": 1,
+            "radius": 15
+          },
+          {
+            "level": 0,
+            "shape": [
+              341,
+              398
+            ],
+            "shift": [
+              1,
+              13
+            ],
+            "score": 0.6867229957323742,
+            "sampling_step": 1,
+            "radius": 2
+          }
+        ]
+      }
+    },
+    "enhancements": {
+      "crop_box_in_overlap": [
+        23,
+        36,
+        387,
+        321
+      ],
+      "gray_world_gains_rgb": [
+        0.9927962805598924,
+        0.997117611402647,
+        1.0105713608502966
+      ],
+      "contrast_percentiles": [
+        0.08993609994649887,
+        0.9590520262718201
+      ],
+      "retained_area_fraction": 0.7644
+    }
+  },
+  {
+    "id": "00125v",
+    "group": "provided",
+    "channel_shape": [
+      341,
+      400
+    ],
+    "methods": {
+      "single_ncc": {
+        "green": [
+          2,
+          5
+        ],
+        "red": [
+          1,
+          10
+        ],
+        "alignment_seconds": 0.5595,
+        "overlap_box": [
+          2,
+          10,
+          400,
+          341
+        ],
+        "trace_green": [
+          {
+            "level": 0,
+            "shape": [
+              341,
+              400
+            ],
+            "shift": [
+              2,
+              5
+            ],
+            "score": 0.9749899579381945,
+            "sampling_step": 1,
+            "radius": 25
+          }
+        ],
+        "trace_red": [
+          {
+            "level": 0,
+            "shape": [
+              341,
+              400
+            ],
+            "shift": [
+              1,
+              10
+            ],
+            "score": 0.9467264291429117,
+            "sampling_step": 1,
+            "radius": 25
+          }
+        ]
+      },
+      "single_l2": {
+        "green": [
+          2,
+          5
+        ],
+        "red": [
+          1,
+          10
+        ],
+        "alignment_seconds": 0.3569,
+        "overlap_box": [
+          2,
+          10,
+          400,
+          341
+        ],
+        "trace_green": [
+          {
+            "level": 0,
+            "shape": [
+              341,
+              400
+            ],
+            "shift": [
+              2,
+              5
+            ],
+            "score": -0.01789110924030757,
+            "sampling_step": 1,
+            "radius": 25
+          }
+        ],
+        "trace_red": [
+          {
+            "level": 0,
+            "shape": [
+              341,
+              400
+            ],
+            "shift": [
+              1,
+              10
+            ],
+            "score": -0.05033508748255666,
+            "sampling_step": 1,
+            "radius": 25
+          }
+        ]
+      },
+      "pyramid_ncc": {
+        "green": [
+          2,
+          5
+        ],
+        "red": [
+          1,
+          10
+        ],
+        "alignment_seconds": 0.0705,
+        "overlap_box": [
+          2,
+          10,
+          400,
+          341
+        ],
+        "trace_green": [
+          {
+            "level": 1,
+            "shape": [
+              171,
+              200
+            ],
+            "shift": [
+              1,
+              3
+            ],
+            "score": 0.9758360839770397,
+            "sampling_step": 1,
+            "radius": 15
+          },
+          {
+            "level": 0,
+            "shape": [
+              341,
+              400
+            ],
+            "shift": [
+              2,
+              5
+            ],
+            "score": 0.9749899579381945,
+            "sampling_step": 1,
+            "radius": 2
+          }
+        ],
+        "trace_red": [
+          {
+            "level": 1,
+            "shape": [
+              171,
+              200
+            ],
+            "shift": [
+              1,
+              5
+            ],
+            "score": 0.9491088157694164,
+            "sampling_step": 1,
+            "radius": 15
+          },
+          {
+            "level": 0,
+            "shape": [
+              341,
+              400
+            ],
+            "shift": [
+              1,
+              10
+            ],
+            "score": 0.9467264291429117,
+            "sampling_step": 1,
+            "radius": 2
+          }
+        ]
+      },
+      "pyramid_l2": {
+        "green": [
+          2,
+          5
+        ],
+        "red": [
+          1,
+          10
+        ],
+        "alignment_seconds": 0.0446,
+        "overlap_box": [
+          2,
+          10,
+          400,
+          341
+        ],
+        "trace_green": [
+          {
+            "level": 1,
+            "shape": [
+              171,
+              200
+            ],
+            "shift": [
+              1,
+              2
+            ],
+            "score": -0.0171011633043733,
+            "sampling_step": 1,
+            "radius": 15
+          },
+          {
+            "level": 0,
+            "shape": [
+              341,
+              400
+            ],
+            "shift": [
+              2,
+              5
+            ],
+            "score": -0.01789110924030757,
+            "sampling_step": 1,
+            "radius": 2
+          }
+        ],
+        "trace_red": [
+          {
+            "level": 1,
+            "shape": [
+              171,
+              200
+            ],
+            "shift": [
+              1,
+              5
+            ],
+            "score": -0.04933128787703853,
+            "sampling_step": 1,
+            "radius": 15
+          },
+          {
+            "level": 0,
+            "shape": [
+              341,
+              400
+            ],
+            "shift": [
+              1,
+              10
+            ],
+            "score": -0.05033508748255666,
+            "sampling_step": 1,
+            "radius": 2
+          }
+        ]
+      },
+      "edges_ncc": {
+        "green": [
+          2,
+          5
+        ],
+        "red": [
+          1,
+          10
+        ],
+        "alignment_seconds": 0.0687,
+        "overlap_box": [
+          2,
+          10,
+          400,
+          341
+        ],
+        "trace_green": [
+          {
+            "level": 1,
+            "shape": [
+              171,
+              200
+            ],
+            "shift": [
+              1,
+              3
+            ],
+            "score": 0.8730401797817995,
+            "sampling_step": 1,
+            "radius": 15
+          },
+          {
+            "level": 0,
+            "shape": [
+              341,
+              400
+            ],
+            "shift": [
+              2,
+              5
+            ],
+            "score": 0.8333570112107896,
+            "sampling_step": 1,
+            "radius": 2
+          }
+        ],
+        "trace_red": [
+          {
+            "level": 1,
+            "shape": [
+              171,
+              200
+            ],
+            "shift": [
+              1,
+              5
+            ],
+            "score": 0.8434731046781702,
+            "sampling_step": 1,
+            "radius": 15
+          },
+          {
+            "level": 0,
+            "shape": [
+              341,
+              400
+            ],
+            "shift": [
+              1,
+              10
+            ],
+            "score": 0.8295681019194867,
+            "sampling_step": 1,
+            "radius": 2
+          }
+        ]
+      }
+    },
+    "enhancements": {
+      "crop_box_in_overlap": [
+        24,
+        39,
+        382,
+        322
+      ],
+      "gray_world_gains_rgb": [
+        1.0711257104370064,
+        0.9485340659786313,
+        1.0012297488799087
+      ],
+      "contrast_percentiles": [
+        0.09030699729919434,
+        0.8611010909080505
+      ],
+      "retained_area_fraction": 0.7428
+    }
+  },
+  {
+    "id": "00163v",
+    "group": "provided",
+    "channel_shape": [
+      341,
+      387
+    ],
+    "methods": {
+      "single_ncc": {
+        "green": [
+          1,
+          -3
+        ],
+        "red": [
+          1,
+          -4
+        ],
+        "alignment_seconds": 0.5464,
+        "overlap_box": [
+          1,
+          0,
+          387,
+          337
+        ],
+        "trace_green": [
+          {
+            "level": 0,
+            "shape": [
+              341,
+              387
+            ],
+            "shift": [
+              1,
+              -3
+            ],
+            "score": 0.977198758237798,
+            "sampling_step": 1,
+            "radius": 25
+          }
+        ],
+        "trace_red": [
+          {
+            "level": 0,
+            "shape": [
+              341,
+              387
+            ],
+            "shift": [
+              1,
+              -4
+            ],
+            "score": 0.9752486584590214,
+            "sampling_step": 1,
+            "radius": 25
+          }
+        ]
+      },
+      "single_l2": {
+        "green": [
+          1,
+          -3
+        ],
+        "red": [
+          1,
+          -4
+        ],
+        "alignment_seconds": 0.3616,
+        "overlap_box": [
+          1,
+          0,
+          387,
+          337
+        ],
+        "trace_green": [
+          {
+            "level": 0,
+            "shape": [
+              341,
+              387
+            ],
+            "shift": [
+              1,
+              -3
+            ],
+            "score": -0.01268943094541315,
+            "sampling_step": 1,
+            "radius": 25
+          }
+        ],
+        "trace_red": [
+          {
+            "level": 0,
+            "shape": [
+              341,
+              387
+            ],
+            "shift": [
+              1,
+              -4
+            ],
+            "score": -0.013813649129129293,
+            "sampling_step": 1,
+            "radius": 25
+          }
+        ]
+      },
+      "pyramid_ncc": {
+        "green": [
+          1,
+          -3
+        ],
+        "red": [
+          1,
+          -4
+        ],
+        "alignment_seconds": 0.0714,
+        "overlap_box": [
+          1,
+          0,
+          387,
+          337
+        ],
+        "trace_green": [
+          {
+            "level": 1,
+            "shape": [
+              171,
+              194
+            ],
+            "shift": [
+              0,
+              -1
+            ],
+            "score": 0.9807315141898815,
+            "sampling_step": 1,
+            "radius": 15
+          },
+          {
+            "level": 0,
+            "shape": [
+              341,
+              387
+            ],
+            "shift": [
+              1,
+              -3
+            ],
+            "score": 0.977198758237798,
+            "sampling_step": 1,
+            "radius": 2
+          }
+        ],
+        "trace_red": [
+          {
+            "level": 1,
+            "shape": [
+              171,
+              194
+            ],
+            "shift": [
+              1,
+              -2
+            ],
+            "score": 0.9799713498123562,
+            "sampling_step": 1,
+            "radius": 15
+          },
+          {
+            "level": 0,
+            "shape": [
+              341,
+              387
+            ],
+            "shift": [
+              1,
+              -4
+            ],
+            "score": 0.9752486584590214,
+            "sampling_step": 1,
+            "radius": 2
+          }
+        ]
+      },
+      "pyramid_l2": {
+        "green": [
+          1,
+          -3
+        ],
+        "red": [
+          1,
+          -4
+        ],
+        "alignment_seconds": 0.0515,
+        "overlap_box": [
+          1,
+          0,
+          387,
+          337
+        ],
+        "trace_green": [
+          {
+            "level": 1,
+            "shape": [
+              171,
+              194
+            ],
+            "shift": [
+              1,
+              -1
+            ],
+            "score": -0.010679951823773747,
+            "sampling_step": 1,
+            "radius": 15
+          },
+          {
+            "level": 0,
+            "shape": [
+              341,
+              387
+            ],
+            "shift": [
+              1,
+              -3
+            ],
+            "score": -0.01268943094541315,
+            "sampling_step": 1,
+            "radius": 2
+          }
+        ],
+        "trace_red": [
+          {
+            "level": 1,
+            "shape": [
+              171,
+              194
+            ],
+            "shift": [
+              1,
+              -2
+            ],
+            "score": -0.011008812215097311,
+            "sampling_step": 1,
+            "radius": 15
+          },
+          {
+            "level": 0,
+            "shape": [
+              341,
+              387
+            ],
+            "shift": [
+              1,
+              -4
+            ],
+            "score": -0.013813649129129293,
+            "sampling_step": 1,
+            "radius": 2
+          }
+        ]
+      },
+      "edges_ncc": {
+        "green": [
+          1,
+          -3
+        ],
+        "red": [
+          1,
+          -4
+        ],
+        "alignment_seconds": 0.0698,
+        "overlap_box": [
+          1,
+          0,
+          387,
+          337
+        ],
+        "trace_green": [
+          {
+            "level": 1,
+            "shape": [
+              171,
+              194
+            ],
+            "shift": [
+              0,
+              -1
+            ],
+            "score": 0.8626827513108574,
+            "sampling_step": 1,
+            "radius": 15
+          },
+          {
+            "level": 0,
+            "shape": [
+              341,
+              387
+            ],
+            "shift": [
+              1,
+              -3
+            ],
+            "score": 0.8416168029414898,
+            "sampling_step": 1,
+            "radius": 2
+          }
+        ],
+        "trace_red": [
+          {
+            "level": 1,
+            "shape": [
+              171,
+              194
+            ],
+            "shift": [
+              1,
+              -2
+            ],
+            "score": 0.8518664717963351,
+            "sampling_step": 1,
+            "radius": 15
+          },
+          {
+            "level": 0,
+            "shape": [
+              341,
+              387
+            ],
+            "shift": [
+              1,
+              -4
+            ],
+            "score": 0.8100069878207088,
+            "sampling_step": 1,
+            "radius": 2
+          }
+        ]
+      }
+    },
+    "enhancements": {
+      "crop_box_in_overlap": [
+        7,
+        8,
+        366,
+        329
+      ],
+      "gray_world_gains_rgb": [
+        0.9923351142346106,
+        0.9855423053539489,
+        1.0245228393862988
+      ],
+      "contrast_percentiles": [
+        0.07004719227552414,
+        0.9923809170722961
+      ],
+      "retained_area_fraction": 0.8732
+    }
+  },
+  {
+    "id": "00458u",
+    "group": "provided",
+    "channel_shape": [
+      3238,
+      3741
+    ],
+    "methods": {
+      "pyramid_ncc": {
+        "green": [
+          6,
+          42
+        ],
+        "red": [
+          32,
+          87
+        ],
+        "alignment_seconds": 0.7086,
+        "overlap_box": [
+          32,
+          87,
+          3741,
+          3238
+        ],
+        "trace_green": [
+          {
+            "level": 4,
+            "shape": [
+              203,
+              234
+            ],
+            "shift": [
+              0,
+              3
+            ],
+            "score": 0.9916393004645263,
+            "sampling_step": 1,
+            "radius": 15
+          },
+          {
+            "level": 3,
+            "shape": [
+              405,
+              468
+            ],
+            "shift": [
+              1,
+              5
+            ],
+            "score": 0.9901933761493105,
+            "sampling_step": 1,
+            "radius": 2
+          },
+          {
+            "level": 2,
+            "shape": [
+              810,
+              936
+            ],
+            "shift": [
+              1,
+              11
+            ],
+            "score": 0.9881840394077599,
+            "sampling_step": 2,
+            "radius": 2
+          },
+          {
+            "level": 1,
+            "shape": [
+              1619,
+              1871
+            ],
+            "shift": [
+              3,
+              21
+            ],
+            "score": 0.9857258899968688,
+            "sampling_step": 3,
+            "radius": 2
+          },
+          {
+            "level": 0,
+            "shape": [
+              3238,
+              3741
+            ],
+            "shift": [
+              6,
+              42
+            ],
+            "score": 0.984090557661284,
+            "sampling_step": 6,
+            "radius": 2
+          }
+        ],
+        "trace_red": [
+          {
+            "level": 4,
+            "shape": [
+              203,
+              234
+            ],
+            "shift": [
+              2,
+              6
+            ],
+            "score": 0.9867503945451053,
+            "sampling_step": 1,
+            "radius": 15
+          },
+          {
+            "level": 3,
+            "shape": [
+              405,
+              468
+            ],
+            "shift": [
+              4,
+              11
+            ],
+            "score": 0.9858281404903078,
+            "sampling_step": 1,
+            "radius": 2
+          },
+          {
+            "level": 2,
+            "shape": [
+              810,
+              936
+            ],
+            "shift": [
+              8,
+              22
+            ],
+            "score": 0.984222439940643,
+            "sampling_step": 2,
+            "radius": 2
+          },
+          {
+            "level": 1,
+            "shape": [
+              1619,
+              1871
+            ],
+            "shift": [
+              16,
+              44
+            ],
+            "score": 0.9823240818420188,
+            "sampling_step": 3,
+            "radius": 2
+          },
+          {
+            "level": 0,
+            "shape": [
+              3238,
+              3741
+            ],
+            "shift": [
+              32,
+              87
+            ],
+            "score": 0.9811606730319763,
+            "sampling_step": 6,
+            "radius": 2
+          }
+        ]
+      },
+      "pyramid_l2": {
+        "green": [
+          6,
+          42
+        ],
+        "red": [
+          32,
+          87
+        ],
+        "alignment_seconds": 0.6666,
+        "overlap_box": [
+          32,
+          87,
+          3741,
+          3238
+        ],
+        "trace_green": [
+          {
+            "level": 4,
+            "shape": [
+              203,
+              234
+            ],
+            "shift": [
+              0,
+              3
+            ],
+            "score": -0.008075522420399354,
+            "sampling_step": 1,
+            "radius": 15
+          },
+          {
+            "level": 3,
+            "shape": [
+              405,
+              468
+            ],
+            "shift": [
+              1,
+              5
+            ],
+            "score": -0.0095049251397227,
+            "sampling_step": 1,
+            "radius": 2
+          },
+          {
+            "level": 2,
+            "shape": [
+              810,
+              936
+            ],
+            "shift": [
+              1,
+              11
+            ],
+            "score": -0.011481757561117509,
+            "sampling_step": 2,
+            "radius": 2
+          },
+          {
+            "level": 1,
+            "shape": [
+              1619,
+              1871
+            ],
+            "shift": [
+              3,
+              21
+            ],
+            "score": -0.013905043718512262,
+            "sampling_step": 3,
+            "radius": 2
+          },
+          {
+            "level": 0,
+            "shape": [
+              3238,
+              3741
+            ],
+            "shift": [
+              6,
+              42
+            ],
+            "score": -0.015523373259962477,
+            "sampling_step": 6,
+            "radius": 2
+          }
+        ],
+        "trace_red": [
+          {
+            "level": 4,
+            "shape": [
+              203,
+              234
+            ],
+            "shift": [
+              2,
+              6
+            ],
+            "score": -0.012789395969915903,
+            "sampling_step": 1,
+            "radius": 15
+          },
+          {
+            "level": 3,
+            "shape": [
+              405,
+              468
+            ],
+            "shift": [
+              4,
+              11
+            ],
+            "score": -0.013730576857585797,
+            "sampling_step": 1,
+            "radius": 2
+          },
+          {
+            "level": 2,
+            "shape": [
+              810,
+              936
+            ],
+            "shift": [
+              8,
+              22
+            ],
+            "score": -0.015322456644180702,
+            "sampling_step": 2,
+            "radius": 2
+          },
+          {
+            "level": 1,
+            "shape": [
+              1619,
+              1871
+            ],
+            "shift": [
+              16,
+              44
+            ],
+            "score": -0.017215656146153793,
+            "sampling_step": 3,
+            "radius": 2
+          },
+          {
+            "level": 0,
+            "shape": [
+              3238,
+              3741
+            ],
+            "shift": [
+              32,
+              87
+            ],
+            "score": -0.018376678469487207,
+            "sampling_step": 6,
+            "radius": 2
+          }
+        ]
+      },
+      "edges_ncc": {
+        "green": [
+          2,
+          41
+        ],
+        "red": [
+          30,
+          85
+        ],
+        "alignment_seconds": 1.1856,
+        "overlap_box": [
+          30,
+          85,
+          3741,
+          3238
+        ],
+        "trace_green": [
+          {
+            "level": 4,
+            "shape": [
+              203,
+              234
+            ],
+            "shift": [
+              0,
+              3
+            ],
+            "score": 0.9111787413664876,
+            "sampling_step": 1,
+            "radius": 15
+          },
+          {
+            "level": 3,
+            "shape": [
+              405,
+              468
+            ],
+            "shift": [
+              1,
+              5
+            ],
+            "score": 0.8618489861051452,
+            "sampling_step": 1,
+            "radius": 2
+          },
+          {
+            "level": 2,
+            "shape": [
+              810,
+              936
+            ],
+            "shift": [
+              1,
+              10
+            ],
+            "score": 0.7685548348194527,
+            "sampling_step": 2,
+            "radius": 2
+          },
+          {
+            "level": 1,
+            "shape": [
+              1619,
+              1871
+            ],
+            "shift": [
+              1,
+              21
+            ],
+            "score": 0.6893022859554635,
+            "sampling_step": 3,
+            "radius": 2
+          },
+          {
+            "level": 0,
+            "shape": [
+              3238,
+              3741
+            ],
+            "shift": [
+              2,
+              41
+            ],
+            "score": 0.6407491940192775,
+            "sampling_step": 6,
+            "radius": 2
+          }
+        ],
+        "trace_red": [
+          {
+            "level": 4,
+            "shape": [
+              203,
+              234
+            ],
+            "shift": [
+              2,
+              5
+            ],
+            "score": 0.8508906318603294,
+            "sampling_step": 1,
+            "radius": 15
+          },
+          {
+            "level": 3,
+            "shape": [
+              405,
+              468
+            ],
+            "shift": [
+              4,
+              11
+            ],
+            "score": 0.8425131892290988,
+            "sampling_step": 1,
+            "radius": 2
+          },
+          {
+            "level": 2,
+            "shape": [
+              810,
+              936
+            ],
+            "shift": [
+              8,
+              21
+            ],
+            "score": 0.767390688034991,
+            "sampling_step": 2,
+            "radius": 2
+          },
+          {
+            "level": 1,
+            "shape": [
+              1619,
+              1871
+            ],
+            "shift": [
+              16,
+              43
+            ],
+            "score": 0.7019921085990379,
+            "sampling_step": 3,
+            "radius": 2
+          },
+          {
+            "level": 0,
+            "shape": [
+              3238,
+              3741
+            ],
+            "shift": [
+              30,
+              85
+            ],
+            "score": 0.6594457737601513,
+            "sampling_step": 6,
+            "radius": 2
+          }
+        ]
+      }
+    },
+    "enhancements": {
+      "crop_box_in_overlap": [
+        149,
+        127,
+        3551,
+        3089
+      ],
+      "gray_world_gains_rgb": [
+        0.9994074518562679,
+        1.013004908340803,
+        0.988448795552279
+      ],
+      "contrast_percentiles": [
+        0.08739650249481201,
+        0.9693066477775574
+      ],
+      "retained_area_fraction": 0.8319
+    }
+  },
+  {
+    "id": "00637v",
+    "group": "additional",
+    "channel_shape": [
+      341,
+      394
+    ],
+    "methods": {
+      "single_ncc": {
+        "green": [
+          -2,
+          4
+        ],
+        "red": [
+          -5,
+          10
+        ],
+        "alignment_seconds": 0.5688,
+        "overlap_box": [
+          0,
+          10,
+          389,
+          341
+        ],
+        "trace_green": [
+          {
+            "level": 0,
+            "shape": [
+              341,
+              394
+            ],
+            "shift": [
+              -2,
+              4
+            ],
+            "score": 0.9597611325365843,
+            "sampling_step": 1,
+            "radius": 25
+          }
+        ],
+        "trace_red": [
+          {
+            "level": 0,
+            "shape": [
+              341,
+              394
+            ],
+            "shift": [
+              -5,
+              10
+            ],
+            "score": 0.9345877567864909,
+            "sampling_step": 1,
+            "radius": 25
+          }
+        ]
+      },
+      "single_l2": {
+        "green": [
+          -2,
+          4
+        ],
+        "red": [
+          -5,
+          10
+        ],
+        "alignment_seconds": 0.4251,
+        "overlap_box": [
+          0,
+          10,
+          389,
+          341
+        ],
+        "trace_green": [
+          {
+            "level": 0,
+            "shape": [
+              341,
+              394
+            ],
+            "shift": [
+              -2,
+              4
+            ],
+            "score": -0.016656090150224175,
+            "sampling_step": 1,
+            "radius": 25
+          }
+        ],
+        "trace_red": [
+          {
+            "level": 0,
+            "shape": [
+              341,
+              394
+            ],
+            "shift": [
+              -5,
+              10
+            ],
+            "score": -0.05092280198057114,
+            "sampling_step": 1,
+            "radius": 25
+          }
+        ]
+      },
+      "pyramid_ncc": {
+        "green": [
+          -2,
+          4
+        ],
+        "red": [
+          -5,
+          10
+        ],
+        "alignment_seconds": 0.0665,
+        "overlap_box": [
+          0,
+          10,
+          389,
+          341
+        ],
+        "trace_green": [
+          {
+            "level": 1,
+            "shape": [
+              171,
+              197
+            ],
+            "shift": [
+              -1,
+              2
+            ],
+            "score": 0.9823769309538125,
+            "sampling_step": 1,
+            "radius": 15
+          },
+          {
+            "level": 0,
+            "shape": [
+              341,
+              394
+            ],
+            "shift": [
+              -2,
+              4
+            ],
+            "score": 0.9597611325365843,
+            "sampling_step": 1,
+            "radius": 2
+          }
+        ],
+        "trace_red": [
+          {
+            "level": 1,
+            "shape": [
+              171,
+              197
+            ],
+            "shift": [
+              -3,
+              5
+            ],
+            "score": 0.9500213269465618,
+            "sampling_step": 1,
+            "radius": 15
+          },
+          {
+            "level": 0,
+            "shape": [
+              341,
+              394
+            ],
+            "shift": [
+              -5,
+              10
+            ],
+            "score": 0.9345877567864909,
+            "sampling_step": 1,
+            "radius": 2
+          }
+        ]
+      },
+      "pyramid_l2": {
+        "green": [
+          -2,
+          4
+        ],
+        "red": [
+          -5,
+          10
+        ],
+        "alignment_seconds": 0.0472,
+        "overlap_box": [
+          0,
+          10,
+          389,
+          341
+        ],
+        "trace_green": [
+          {
+            "level": 1,
+            "shape": [
+              171,
+              197
+            ],
+            "shift": [
+              -1,
+              2
+            ],
+            "score": -0.007363266351835209,
+            "sampling_step": 1,
+            "radius": 15
+          },
+          {
+            "level": 0,
+            "shape": [
+              341,
+              394
+            ],
+            "shift": [
+              -2,
+              4
+            ],
+            "score": -0.016656090150224175,
+            "sampling_step": 1,
+            "radius": 2
+          }
+        ],
+        "trace_red": [
+          {
+            "level": 1,
+            "shape": [
+              171,
+              197
+            ],
+            "shift": [
+              -3,
+              5
+            ],
+            "score": -0.042246084654143694,
+            "sampling_step": 1,
+            "radius": 15
+          },
+          {
+            "level": 0,
+            "shape": [
+              341,
+              394
+            ],
+            "shift": [
+              -5,
+              10
+            ],
+            "score": -0.05092280198057114,
+            "sampling_step": 1,
+            "radius": 2
+          }
+        ]
+      },
+      "edges_ncc": {
+        "green": [
+          -2,
+          4
+        ],
+        "red": [
+          -5,
+          10
+        ],
+        "alignment_seconds": 0.0904,
+        "overlap_box": [
+          0,
+          10,
+          389,
+          341
+        ],
+        "trace_green": [
+          {
+            "level": 1,
+            "shape": [
+              171,
+              197
+            ],
+            "shift": [
+              -1,
+              2
+            ],
+            "score": 0.8790534685751661,
+            "sampling_step": 1,
+            "radius": 15
+          },
+          {
+            "level": 0,
+            "shape": [
+              341,
+              394
+            ],
+            "shift": [
+              -2,
+              4
+            ],
+            "score": 0.8221781625184846,
+            "sampling_step": 1,
+            "radius": 2
+          }
+        ],
+        "trace_red": [
+          {
+            "level": 1,
+            "shape": [
+              171,
+              197
+            ],
+            "shift": [
+              -3,
+              5
+            ],
+            "score": 0.859764764075026,
+            "sampling_step": 1,
+            "radius": 15
+          },
+          {
+            "level": 0,
+            "shape": [
+              341,
+              394
+            ],
+            "shift": [
+              -5,
+              10
+            ],
+            "score": 0.8166514198251085,
+            "sampling_step": 1,
+            "radius": 2
+          }
+        ]
+      }
+    },
+    "enhancements": {
+      "crop_box_in_overlap": [
+        18,
+        3,
+        377,
+        292
+      ],
+      "gray_world_gains_rgb": [
+        0.94292262326157,
+        1.025433736914347,
+        1.050966833779863
+      ],
+      "contrast_percentiles": [
+        0.04437283053994179,
+        1.0
+      ],
+      "retained_area_fraction": 0.7722
+    }
+  },
+  {
+    "id": "00804v",
+    "group": "provided",
+    "channel_shape": [
+      341,
+      396
+    ],
+    "methods": {
+      "single_ncc": {
+        "green": [
+          -2,
+          6
+        ],
+        "red": [
+          -4,
+          13
+        ],
+        "alignment_seconds": 0.5635,
+        "overlap_box": [
+          0,
+          13,
+          392,
+          341
+        ],
+        "trace_green": [
+          {
+            "level": 0,
+            "shape": [
+              341,
+              396
+            ],
+            "shift": [
+              -2,
+              6
+            ],
+            "score": 0.981451513135388,
+            "sampling_step": 1,
+            "radius": 25
+          }
+        ],
+        "trace_red": [
+          {
+            "level": 0,
+            "shape": [
+              341,
+              396
+            ],
+            "shift": [
+              -4,
+              13
+            ],
+            "score": 0.968381265528345,
+            "sampling_step": 1,
+            "radius": 25
+          }
+        ]
+      },
+      "single_l2": {
+        "green": [
+          -2,
+          6
+        ],
+        "red": [
+          -4,
+          13
+        ],
+        "alignment_seconds": 0.4168,
+        "overlap_box": [
+          0,
+          13,
+          392,
+          341
+        ],
+        "trace_green": [
+          {
+            "level": 0,
+            "shape": [
+              341,
+              396
+            ],
+            "shift": [
+              -2,
+              6
+            ],
+            "score": -0.018733457493878506,
+            "sampling_step": 1,
+            "radius": 25
+          }
+        ],
+        "trace_red": [
+          {
+            "level": 0,
+            "shape": [
+              341,
+              396
+            ],
+            "shift": [
+              -4,
+              13
+            ],
+            "score": -0.028831049975212894,
+            "sampling_step": 1,
+            "radius": 25
+          }
+        ]
+      },
+      "pyramid_ncc": {
+        "green": [
+          -2,
+          6
+        ],
+        "red": [
+          -4,
+          13
+        ],
+        "alignment_seconds": 0.0739,
+        "overlap_box": [
+          0,
+          13,
+          392,
+          341
+        ],
+        "trace_green": [
+          {
+            "level": 1,
+            "shape": [
+              171,
+              198
+            ],
+            "shift": [
+              -1,
+              3
+            ],
+            "score": 0.9830108789243128,
+            "sampling_step": 1,
+            "radius": 15
+          },
+          {
+            "level": 0,
+            "shape": [
+              341,
+              396
+            ],
+            "shift": [
+              -2,
+              6
+            ],
+            "score": 0.981451513135388,
+            "sampling_step": 1,
+            "radius": 2
+          }
+        ],
+        "trace_red": [
+          {
+            "level": 1,
+            "shape": [
+              171,
+              198
+            ],
+            "shift": [
+              -2,
+              7
+            ],
+            "score": 0.9690877738385318,
+            "sampling_step": 1,
+            "radius": 15
+          },
+          {
+            "level": 0,
+            "shape": [
+              341,
+              396
+            ],
+            "shift": [
+              -4,
+              13
+            ],
+            "score": 0.968381265528345,
+            "sampling_step": 1,
+            "radius": 2
+          }
+        ]
+      },
+      "pyramid_l2": {
+        "green": [
+          -2,
+          6
+        ],
+        "red": [
+          -4,
+          13
+        ],
+        "alignment_seconds": 0.0444,
+        "overlap_box": [
+          0,
+          13,
+          392,
+          341
+        ],
+        "trace_green": [
+          {
+            "level": 1,
+            "shape": [
+              171,
+              198
+            ],
+            "shift": [
+              -1,
+              3
+            ],
+            "score": -0.017170452495179307,
+            "sampling_step": 1,
+            "radius": 15
+          },
+          {
+            "level": 0,
+            "shape": [
+              341,
+              396
+            ],
+            "shift": [
+              -2,
+              6
+            ],
+            "score": -0.018733457493878506,
+            "sampling_step": 1,
+            "radius": 2
+          }
+        ],
+        "trace_red": [
+          {
+            "level": 1,
+            "shape": [
+              171,
+              198
+            ],
+            "shift": [
+              -2,
+              7
+            ],
+            "score": -0.0280315113573975,
+            "sampling_step": 1,
+            "radius": 15
+          },
+          {
+            "level": 0,
+            "shape": [
+              341,
+              396
+            ],
+            "shift": [
+              -4,
+              13
+            ],
+            "score": -0.028831049975212894,
+            "sampling_step": 1,
+            "radius": 2
+          }
+        ]
+      },
+      "edges_ncc": {
+        "green": [
+          -2,
+          6
+        ],
+        "red": [
+          -4,
+          13
+        ],
+        "alignment_seconds": 0.0817,
+        "overlap_box": [
+          0,
+          13,
+          392,
+          341
+        ],
+        "trace_green": [
+          {
+            "level": 1,
+            "shape": [
+              171,
+              198
+            ],
+            "shift": [
+              -1,
+              3
+            ],
+            "score": 0.8860603075464887,
+            "sampling_step": 1,
+            "radius": 15
+          },
+          {
+            "level": 0,
+            "shape": [
+              341,
+              396
+            ],
+            "shift": [
+              -2,
+              6
+            ],
+            "score": 0.8378090149889201,
+            "sampling_step": 1,
+            "radius": 2
+          }
+        ],
+        "trace_red": [
+          {
+            "level": 1,
+            "shape": [
+              171,
+              198
+            ],
+            "shift": [
+              -2,
+              6
+            ],
+            "score": 0.8391582466821421,
+            "sampling_step": 1,
+            "radius": 15
+          },
+          {
+            "level": 0,
+            "shape": [
+              341,
+              396
+            ],
+            "shift": [
+              -4,
+              13
+            ],
+            "score": 0.819650220634094,
+            "sampling_step": 1,
+            "radius": 2
+          }
+        ]
+      }
+    },
+    "enhancements": {
+      "crop_box_in_overlap": [
+        19,
+        7,
+        376,
+        326
+      ],
+      "gray_world_gains_rgb": [
+        1.0062210924362174,
+        0.9762167100169235,
+        1.0205437925706975
+      ],
+      "contrast_percentiles": [
+        0.10654105246067047,
+        0.9685161113739014
+      ],
+      "retained_area_fraction": 0.8434
+    }
+  },
+  {
+    "id": "01007a",
+    "group": "provided",
+    "channel_shape": [
+      3238,
+      3800
+    ],
+    "methods": {
+      "pyramid_ncc": {
+        "green": [
+          14,
+          60
+        ],
+        "red": [
+          13,
+          129
+        ],
+        "alignment_seconds": 0.7489,
+        "overlap_box": [
+          14,
+          129,
+          3800,
+          3238
+        ],
+        "trace_green": [
+          {
+            "level": 4,
+            "shape": [
+              203,
+              238
+            ],
+            "shift": [
+              1,
+              4
+            ],
+            "score": 0.9896265175064152,
+            "sampling_step": 1,
+            "radius": 15
+          },
+          {
+            "level": 3,
+            "shape": [
+              405,
+              475
+            ],
+            "shift": [
+              2,
+              7
+            ],
+            "score": 0.988772342886755,
+            "sampling_step": 1,
+            "radius": 2
+          },
+          {
+            "level": 2,
+            "shape": [
+              810,
+              950
+            ],
+            "shift": [
+              3,
+              15
+            ],
+            "score": 0.9885783805137788,
+            "sampling_step": 2,
+            "radius": 2
+          },
+          {
+            "level": 1,
+            "shape": [
+              1619,
+              1900
+            ],
+            "shift": [
+              7,
+              30
+            ],
+            "score": 0.9875659839775884,
+            "sampling_step": 3,
+            "radius": 2
+          },
+          {
+            "level": 0,
+            "shape": [
+              3238,
+              3800
+            ],
+            "shift": [
+              14,
+              60
+            ],
+            "score": 0.9865868367087105,
+            "sampling_step": 6,
+            "radius": 2
+          }
+        ],
+        "trace_red": [
+          {
+            "level": 4,
+            "shape": [
+              203,
+              238
+            ],
+            "shift": [
+              1,
+              8
+            ],
+            "score": 0.9582980211775045,
+            "sampling_step": 1,
+            "radius": 15
+          },
+          {
+            "level": 3,
+            "shape": [
+              405,
+              475
+            ],
+            "shift": [
+              2,
+              16
+            ],
+            "score": 0.9578593556320565,
+            "sampling_step": 1,
+            "radius": 2
+          },
+          {
+            "level": 2,
+            "shape": [
+              810,
+              950
+            ],
+            "shift": [
+              3,
+              32
+            ],
+            "score": 0.9575448276455553,
+            "sampling_step": 2,
+            "radius": 2
+          },
+          {
+            "level": 1,
+            "shape": [
+              1619,
+              1900
+            ],
+            "shift": [
+              6,
+              64
+            ],
+            "score": 0.9564075128523849,
+            "sampling_step": 3,
+            "radius": 2
+          },
+          {
+            "level": 0,
+            "shape": [
+              3238,
+              3800
+            ],
+            "shift": [
+              13,
+              129
+            ],
+            "score": 0.9557775895208627,
+            "sampling_step": 6,
+            "radius": 2
+          }
+        ]
+      },
+      "pyramid_l2": {
+        "green": [
+          14,
+          60
+        ],
+        "red": [
+          13,
+          129
+        ],
+        "alignment_seconds": 0.7097,
+        "overlap_box": [
+          14,
+          129,
+          3800,
+          3238
+        ],
+        "trace_green": [
+          {
+            "level": 4,
+            "shape": [
+              203,
+              238
+            ],
+            "shift": [
+              1,
+              4
+            ],
+            "score": -0.008980760190039948,
+            "sampling_step": 1,
+            "radius": 15
+          },
+          {
+            "level": 3,
+            "shape": [
+              405,
+              475
+            ],
+            "shift": [
+              2,
+              7
+            ],
+            "score": -0.009684344388299149,
+            "sampling_step": 1,
+            "radius": 2
+          },
+          {
+            "level": 2,
+            "shape": [
+              810,
+              950
+            ],
+            "shift": [
+              3,
+              15
+            ],
+            "score": -0.009924578209842492,
+            "sampling_step": 2,
+            "radius": 2
+          },
+          {
+            "level": 1,
+            "shape": [
+              1619,
+              1900
+            ],
+            "shift": [
+              7,
+              30
+            ],
+            "score": -0.010816390877816221,
+            "sampling_step": 3,
+            "radius": 2
+          },
+          {
+            "level": 0,
+            "shape": [
+              3238,
+              3800
+            ],
+            "shift": [
+              14,
+              60
+            ],
+            "score": -0.011659451512586409,
+            "sampling_step": 6,
+            "radius": 2
+          }
+        ],
+        "trace_red": [
+          {
+            "level": 4,
+            "shape": [
+              203,
+              238
+            ],
+            "shift": [
+              1,
+              8
+            ],
+            "score": -0.04265151577409549,
+            "sampling_step": 1,
+            "radius": 15
+          },
+          {
+            "level": 3,
+            "shape": [
+              405,
+              475
+            ],
+            "shift": [
+              2,
+              16
+            ],
+            "score": -0.043207543930140514,
+            "sampling_step": 1,
+            "radius": 2
+          },
+          {
+            "level": 2,
+            "shape": [
+              810,
+              950
+            ],
+            "shift": [
+              3,
+              32
+            ],
+            "score": -0.043606789391858095,
+            "sampling_step": 2,
+            "radius": 2
+          },
+          {
+            "level": 1,
+            "shape": [
+              1619,
+              1900
+            ],
+            "shift": [
+              6,
+              64
+            ],
+            "score": -0.044802871075152455,
+            "sampling_step": 3,
+            "radius": 2
+          },
+          {
+            "level": 0,
+            "shape": [
+              3238,
+              3800
+            ],
+            "shift": [
+              13,
+              129
+            ],
+            "score": -0.045432238935530105,
+            "sampling_step": 6,
+            "radius": 2
+          }
+        ]
+      },
+      "edges_ncc": {
+        "green": [
+          14,
+          60
+        ],
+        "red": [
+          13,
+          129
+        ],
+        "alignment_seconds": 1.2205,
+        "overlap_box": [
+          14,
+          129,
+          3800,
+          3238
+        ],
+        "trace_green": [
+          {
+            "level": 4,
+            "shape": [
+              203,
+              238
+            ],
+            "shift": [
+              1,
+              4
+            ],
+            "score": 0.9205972516032466,
+            "sampling_step": 1,
+            "radius": 15
+          },
+          {
+            "level": 3,
+            "shape": [
+              405,
+              475
+            ],
+            "shift": [
+              2,
+              7
+            ],
+            "score": 0.8893875838852829,
+            "sampling_step": 1,
+            "radius": 2
+          },
+          {
+            "level": 2,
+            "shape": [
+              810,
+              950
+            ],
+            "shift": [
+              3,
+              15
+            ],
+            "score": 0.8808704593586246,
+            "sampling_step": 2,
+            "radius": 2
+          },
+          {
+            "level": 1,
+            "shape": [
+              1619,
+              1900
+            ],
+            "shift": [
+              7,
+              30
+            ],
+            "score": 0.8346946114599385,
+            "sampling_step": 3,
+            "radius": 2
+          },
+          {
+            "level": 0,
+            "shape": [
+              3238,
+              3800
+            ],
+            "shift": [
+              14,
+              60
+            ],
+            "score": 0.7878740803316088,
+            "sampling_step": 6,
+            "radius": 2
+          }
+        ],
+        "trace_red": [
+          {
+            "level": 4,
+            "shape": [
+              203,
+              238
+            ],
+            "shift": [
+              1,
+              8
+            ],
+            "score": 0.8950879728657368,
+            "sampling_step": 1,
+            "radius": 15
+          },
+          {
+            "level": 3,
+            "shape": [
+              405,
+              475
+            ],
+            "shift": [
+              2,
+              16
+            ],
+            "score": 0.873519865226276,
+            "sampling_step": 1,
+            "radius": 2
+          },
+          {
+            "level": 2,
+            "shape": [
+              810,
+              950
+            ],
+            "shift": [
+              3,
+              32
+            ],
+            "score": 0.8516920709027039,
+            "sampling_step": 2,
+            "radius": 2
+          },
+          {
+            "level": 1,
+            "shape": [
+              1619,
+              1900
+            ],
+            "shift": [
+              6,
+              64
+            ],
+            "score": 0.7941129051753338,
+            "sampling_step": 3,
+            "radius": 2
+          },
+          {
+            "level": 0,
+            "shape": [
+              3238,
+              3800
+            ],
+            "shift": [
+              13,
+              129
+            ],
+            "score": 0.7546010787968715,
+            "sampling_step": 6,
+            "radius": 2
+          }
+        ]
+      }
+    },
+    "enhancements": {
+      "crop_box_in_overlap": [
+        209,
+        107,
+        3581,
+        2737
+      ],
+      "gray_world_gains_rgb": [
+        0.973846713642921,
+        1.0072730836269856,
+        1.022499338348237
+      ],
+      "contrast_percentiles": [
+        0.12430384010076523,
+        0.9062150716781616
+      ],
+      "retained_area_fraction": 0.7207
+    }
+  },
+  {
+    "id": "01047u",
+    "group": "provided",
+    "channel_shape": [
+      3218,
+      3741
+    ],
+    "methods": {
+      "pyramid_ncc": {
+        "green": [
+          20,
+          24
+        ],
+        "red": [
+          33,
+          71
+        ],
+        "alignment_seconds": 0.7838,
+        "overlap_box": [
+          33,
+          71,
+          3741,
+          3218
+        ],
+        "trace_green": [
+          {
+            "level": 4,
+            "shape": [
+              202,
+              234
+            ],
+            "shift": [
+              1,
+              2
+            ],
+            "score": 0.9853801971043957,
+            "sampling_step": 1,
+            "radius": 15
+          },
+          {
+            "level": 3,
+            "shape": [
+              403,
+              468
+            ],
+            "shift": [
+              3,
+              3
+            ],
+            "score": 0.9846078679219541,
+            "sampling_step": 1,
+            "radius": 2
+          },
+          {
+            "level": 2,
+            "shape": [
+              805,
+              936
+            ],
+            "shift": [
+              5,
+              6
+            ],
+            "score": 0.9819314089614545,
+            "sampling_step": 2,
+            "radius": 2
+          },
+          {
+            "level": 1,
+            "shape": [
+              1609,
+              1871
+            ],
+            "shift": [
+              10,
+              12
+            ],
+            "score": 0.9768176539259741,
+            "sampling_step": 3,
+            "radius": 2
+          },
+          {
+            "level": 0,
+            "shape": [
+              3218,
+              3741
+            ],
+            "shift": [
+              20,
+              24
+            ],
+            "score": 0.972881038766174,
+            "sampling_step": 6,
+            "radius": 2
+          }
+        ],
+        "trace_red": [
+          {
+            "level": 4,
+            "shape": [
+              202,
+              234
+            ],
+            "shift": [
+              2,
+              4
+            ],
+            "score": 0.9836273933704696,
+            "sampling_step": 1,
+            "radius": 15
+          },
+          {
+            "level": 3,
+            "shape": [
+              403,
+              468
+            ],
+            "shift": [
+              4,
+              9
+            ],
+            "score": 0.9823033049185751,
+            "sampling_step": 1,
+            "radius": 2
+          },
+          {
+            "level": 2,
+            "shape": [
+              805,
+              936
+            ],
+            "shift": [
+              8,
+              18
+            ],
+            "score": 0.9796398424056072,
+            "sampling_step": 2,
+            "radius": 2
+          },
+          {
+            "level": 1,
+            "shape": [
+              1609,
+              1871
+            ],
+            "shift": [
+              17,
+              36
+            ],
+            "score": 0.9769500415424216,
+            "sampling_step": 3,
+            "radius": 2
+          },
+          {
+            "level": 0,
+            "shape": [
+              3218,
+              3741
+            ],
+            "shift": [
+              33,
+              71
+            ],
+            "score": 0.9749779338039778,
+            "sampling_step": 6,
+            "radius": 2
+          }
+        ]
+      },
+      "pyramid_l2": {
+        "green": [
+          20,
+          24
+        ],
+        "red": [
+          33,
+          71
+        ],
+        "alignment_seconds": 0.6837,
+        "overlap_box": [
+          33,
+          71,
+          3741,
+          3218
+        ],
+        "trace_green": [
+          {
+            "level": 4,
+            "shape": [
+              202,
+              234
+            ],
+            "shift": [
+              1,
+              2
+            ],
+            "score": -0.006564558425491186,
+            "sampling_step": 1,
+            "radius": 15
+          },
+          {
+            "level": 3,
+            "shape": [
+              403,
+              468
+            ],
+            "shift": [
+              3,
+              3
+            ],
+            "score": -0.006951503427311869,
+            "sampling_step": 1,
+            "radius": 2
+          },
+          {
+            "level": 2,
+            "shape": [
+              805,
+              936
+            ],
+            "shift": [
+              5,
+              6
+            ],
+            "score": -0.00794789098865951,
+            "sampling_step": 2,
+            "radius": 2
+          },
+          {
+            "level": 1,
+            "shape": [
+              1609,
+              1871
+            ],
+            "shift": [
+              10,
+              12
+            ],
+            "score": -0.009848049011004133,
+            "sampling_step": 3,
+            "radius": 2
+          },
+          {
+            "level": 0,
+            "shape": [
+              3218,
+              3741
+            ],
+            "shift": [
+              20,
+              24
+            ],
+            "score": -0.011328744369225228,
+            "sampling_step": 6,
+            "radius": 2
+          }
+        ],
+        "trace_red": [
+          {
+            "level": 4,
+            "shape": [
+              202,
+              234
+            ],
+            "shift": [
+              2,
+              4
+            ],
+            "score": -0.014465604109288014,
+            "sampling_step": 1,
+            "radius": 15
+          },
+          {
+            "level": 3,
+            "shape": [
+              403,
+              468
+            ],
+            "shift": [
+              4,
+              9
+            ],
+            "score": -0.015294250198177253,
+            "sampling_step": 1,
+            "radius": 2
+          },
+          {
+            "level": 2,
+            "shape": [
+              805,
+              936
+            ],
+            "shift": [
+              9,
+              18
+            ],
+            "score": -0.016549408109900923,
+            "sampling_step": 2,
+            "radius": 2
+          },
+          {
+            "level": 1,
+            "shape": [
+              1609,
+              1871
+            ],
+            "shift": [
+              17,
+              36
+            ],
+            "score": -0.017983378421043264,
+            "sampling_step": 3,
+            "radius": 2
+          },
+          {
+            "level": 0,
+            "shape": [
+              3218,
+              3741
+            ],
+            "shift": [
+              33,
+              71
+            ],
+            "score": -0.01891437362535708,
+            "sampling_step": 6,
+            "radius": 2
+          }
+        ]
+      },
+      "edges_ncc": {
+        "green": [
+          19,
+          25
+        ],
+        "red": [
+          33,
+          71
+        ],
+        "alignment_seconds": 1.0679,
+        "overlap_box": [
+          33,
+          71,
+          3741,
+          3218
+        ],
+        "trace_green": [
+          {
+            "level": 4,
+            "shape": [
+              202,
+              234
+            ],
+            "shift": [
+              1,
+              2
+            ],
+            "score": 0.8756198686506004,
+            "sampling_step": 1,
+            "radius": 15
+          },
+          {
+            "level": 3,
+            "shape": [
+              403,
+              468
+            ],
+            "shift": [
+              3,
+              3
+            ],
+            "score": 0.8811051249803168,
+            "sampling_step": 1,
+            "radius": 2
+          },
+          {
+            "level": 2,
+            "shape": [
+              805,
+              936
+            ],
+            "shift": [
+              5,
+              6
+            ],
+            "score": 0.8350804024089342,
+            "sampling_step": 2,
+            "radius": 2
+          },
+          {
+            "level": 1,
+            "shape": [
+              1609,
+              1871
+            ],
+            "shift": [
+              10,
+              12
+            ],
+            "score": 0.7674210906136817,
+            "sampling_step": 3,
+            "radius": 2
+          },
+          {
+            "level": 0,
+            "shape": [
+              3218,
+              3741
+            ],
+            "shift": [
+              19,
+              25
+            ],
+            "score": 0.7118717708642435,
+            "sampling_step": 6,
+            "radius": 2
+          }
+        ],
+        "trace_red": [
+          {
+            "level": 4,
+            "shape": [
+              202,
+              234
+            ],
+            "shift": [
+              2,
+              4
+            ],
+            "score": 0.873757298869727,
+            "sampling_step": 1,
+            "radius": 15
+          },
+          {
+            "level": 3,
+            "shape": [
+              403,
+              468
+            ],
+            "shift": [
+              4,
+              9
+            ],
+            "score": 0.8683595291831753,
+            "sampling_step": 1,
+            "radius": 2
+          },
+          {
+            "level": 2,
+            "shape": [
+              805,
+              936
+            ],
+            "shift": [
+              8,
+              18
+            ],
+            "score": 0.8137539751889507,
+            "sampling_step": 2,
+            "radius": 2
+          },
+          {
+            "level": 1,
+            "shape": [
+              1609,
+              1871
+            ],
+            "shift": [
+              17,
+              35
+            ],
+            "score": 0.7768698258068403,
+            "sampling_step": 3,
+            "radius": 2
+          },
+          {
+            "level": 0,
+            "shape": [
+              3218,
+              3741
+            ],
+            "shift": [
+              33,
+              71
+            ],
+            "score": 0.7403655306893717,
+            "sampling_step": 6,
+            "radius": 2
+          }
+        ]
+      }
+    },
+    "enhancements": {
+      "crop_box_in_overlap": [
+        34,
+        83,
+        3518,
+        2903
+      ],
+      "gray_world_gains_rgb": [
+        0.9522393523922283,
+        1.0488449837876257,
+        1.0129035858870414
+      ],
+      "contrast_percentiles": [
+        0.08637546747922897,
+        0.7984063625335693
+      ],
+      "retained_area_fraction": 0.8161
+    }
+  },
+  {
+    "id": "01164v",
+    "group": "provided",
+    "channel_shape": [
+      341,
+      396
+    ],
+    "methods": {
+      "single_ncc": {
+        "green": [
+          2,
+          6
+        ],
+        "red": [
+          3,
+          11
+        ],
+        "alignment_seconds": 0.6829,
+        "overlap_box": [
+          3,
+          11,
+          396,
+          341
+        ],
+        "trace_green": [
+          {
+            "level": 0,
+            "shape": [
+              341,
+              396
+            ],
+            "shift": [
+              2,
+              6
+            ],
+            "score": 0.9890399575129352,
+            "sampling_step": 1,
+            "radius": 25
+          }
+        ],
+        "trace_red": [
+          {
+            "level": 0,
+            "shape": [
+              341,
+              396
+            ],
+            "shift": [
+              3,
+              11
+            ],
+            "score": 0.9770896345734555,
+            "sampling_step": 1,
+            "radius": 25
+          }
+        ]
+      },
+      "single_l2": {
+        "green": [
+          2,
+          6
+        ],
+        "red": [
+          3,
+          11
+        ],
+        "alignment_seconds": 0.4356,
+        "overlap_box": [
+          3,
+          11,
+          396,
+          341
+        ],
+        "trace_green": [
+          {
+            "level": 0,
+            "shape": [
+              341,
+              396
+            ],
+            "shift": [
+              2,
+              6
+            ],
+            "score": -0.009309479450020936,
+            "sampling_step": 1,
+            "radius": 25
+          }
+        ],
+        "trace_red": [
+          {
+            "level": 0,
+            "shape": [
+              341,
+              396
+            ],
+            "shift": [
+              3,
+              11
+            ],
+            "score": -0.02870692038729642,
+            "sampling_step": 1,
+            "radius": 25
+          }
+        ]
+      },
+      "pyramid_ncc": {
+        "green": [
+          2,
+          6
+        ],
+        "red": [
+          3,
+          11
+        ],
+        "alignment_seconds": 0.0843,
+        "overlap_box": [
+          3,
+          11,
+          396,
+          341
+        ],
+        "trace_green": [
+          {
+            "level": 1,
+            "shape": [
+              171,
+              198
+            ],
+            "shift": [
+              1,
+              3
+            ],
+            "score": 0.9905112541381753,
+            "sampling_step": 1,
+            "radius": 15
+          },
+          {
+            "level": 0,
+            "shape": [
+              341,
+              396
+            ],
+            "shift": [
+              2,
+              6
+            ],
+            "score": 0.9890399575129352,
+            "sampling_step": 1,
+            "radius": 2
+          }
+        ],
+        "trace_red": [
+          {
+            "level": 1,
+            "shape": [
+              171,
+              198
+            ],
+            "shift": [
+              2,
+              6
+            ],
+            "score": 0.9776389732124657,
+            "sampling_step": 1,
+            "radius": 15
+          },
+          {
+            "level": 0,
+            "shape": [
+              341,
+              396
+            ],
+            "shift": [
+              3,
+              11
+            ],
+            "score": 0.9770896345734555,
+            "sampling_step": 1,
+            "radius": 2
+          }
+        ]
+      },
+      "pyramid_l2": {
+        "green": [
+          2,
+          6
+        ],
+        "red": [
+          3,
+          11
+        ],
+        "alignment_seconds": 0.0451,
+        "overlap_box": [
+          3,
+          11,
+          396,
+          341
+        ],
+        "trace_green": [
+          {
+            "level": 1,
+            "shape": [
+              171,
+              198
+            ],
+            "shift": [
+              1,
+              3
+            ],
+            "score": -0.008019605822984187,
+            "sampling_step": 1,
+            "radius": 15
+          },
+          {
+            "level": 0,
+            "shape": [
+              341,
+              396
+            ],
+            "shift": [
+              2,
+              6
+            ],
+            "score": -0.009309479450020936,
+            "sampling_step": 1,
+            "radius": 2
+          }
+        ],
+        "trace_red": [
+          {
+            "level": 1,
+            "shape": [
+              171,
+              198
+            ],
+            "shift": [
+              1,
+              6
+            ],
+            "score": -0.02839329130264681,
+            "sampling_step": 1,
+            "radius": 15
+          },
+          {
+            "level": 0,
+            "shape": [
+              341,
+              396
+            ],
+            "shift": [
+              3,
+              11
+            ],
+            "score": -0.02870692038729642,
+            "sampling_step": 1,
+            "radius": 2
+          }
+        ]
+      },
+      "edges_ncc": {
+        "green": [
+          2,
+          6
+        ],
+        "red": [
+          3,
+          11
+        ],
+        "alignment_seconds": 0.1203,
+        "overlap_box": [
+          3,
+          11,
+          396,
+          341
+        ],
+        "trace_green": [
+          {
+            "level": 1,
+            "shape": [
+              171,
+              198
+            ],
+            "shift": [
+              1,
+              3
+            ],
+            "score": 0.9065041464055623,
+            "sampling_step": 1,
+            "radius": 15
+          },
+          {
+            "level": 0,
+            "shape": [
+              341,
+              396
+            ],
+            "shift": [
+              2,
+              6
+            ],
+            "score": 0.8650524998467415,
+            "sampling_step": 1,
+            "radius": 2
+          }
+        ],
+        "trace_red": [
+          {
+            "level": 1,
+            "shape": [
+              171,
+              198
+            ],
+            "shift": [
+              2,
+              5
+            ],
+            "score": 0.8548406443021627,
+            "sampling_step": 1,
+            "radius": 15
+          },
+          {
+            "level": 0,
+            "shape": [
+              341,
+              396
+            ],
+            "shift": [
+              3,
+              11
+            ],
+            "score": 0.8954933615929187,
+            "sampling_step": 1,
+            "radius": 2
+          }
+        ]
+      }
+    },
+    "enhancements": {
+      "crop_box_in_overlap": [
+        19,
+        14,
+        375,
+        326
+      ],
+      "gray_world_gains_rgb": [
+        1.0446753071618247,
+        0.9750107662109592,
+        0.9877375312452812
+      ],
+      "contrast_percentiles": [
+        0.15106575191020966,
+        0.8405452966690063
+      ],
+      "retained_area_fraction": 0.8225
+    }
+  },
+  {
+    "id": "01194v",
+    "group": "additional",
+    "channel_shape": [
+      341,
+      393
+    ],
+    "methods": {
+      "single_ncc": {
+        "green": [
+          4,
+          5
+        ],
+        "red": [
+          6,
+          11
+        ],
+        "alignment_seconds": 0.7084,
+        "overlap_box": [
+          6,
+          11,
+          393,
+          341
+        ],
+        "trace_green": [
+          {
+            "level": 0,
+            "shape": [
+              341,
+              393
+            ],
+            "shift": [
+              4,
+              5
+            ],
+            "score": 0.9621895730116258,
+            "sampling_step": 1,
+            "radius": 25
+          }
+        ],
+        "trace_red": [
+          {
+            "level": 0,
+            "shape": [
+              341,
+              393
+            ],
+            "shift": [
+              6,
+              11
+            ],
+            "score": 0.9127253592675667,
+            "sampling_step": 1,
+            "radius": 25
+          }
+        ]
+      },
+      "single_l2": {
+        "green": [
+          4,
+          5
+        ],
+        "red": [
+          6,
+          11
+        ],
+        "alignment_seconds": 0.4411,
+        "overlap_box": [
+          6,
+          11,
+          393,
+          341
+        ],
+        "trace_green": [
+          {
+            "level": 0,
+            "shape": [
+              341,
+              393
+            ],
+            "shift": [
+              4,
+              5
+            ],
+            "score": -0.02253093120911927,
+            "sampling_step": 1,
+            "radius": 25
+          }
+        ],
+        "trace_red": [
+          {
+            "level": 0,
+            "shape": [
+              341,
+              393
+            ],
+            "shift": [
+              6,
+              11
+            ],
+            "score": -0.07003137725020339,
+            "sampling_step": 1,
+            "radius": 25
+          }
+        ]
+      },
+      "pyramid_ncc": {
+        "green": [
+          4,
+          5
+        ],
+        "red": [
+          6,
+          11
+        ],
+        "alignment_seconds": 0.0779,
+        "overlap_box": [
+          6,
+          11,
+          393,
+          341
+        ],
+        "trace_green": [
+          {
+            "level": 1,
+            "shape": [
+              171,
+              197
+            ],
+            "shift": [
+              2,
+              2
+            ],
+            "score": 0.9801912749783349,
+            "sampling_step": 1,
+            "radius": 15
+          },
+          {
+            "level": 0,
+            "shape": [
+              341,
+              393
+            ],
+            "shift": [
+              4,
+              5
+            ],
+            "score": 0.9621895730116258,
+            "sampling_step": 1,
+            "radius": 2
+          }
+        ],
+        "trace_red": [
+          {
+            "level": 1,
+            "shape": [
+              171,
+              197
+            ],
+            "shift": [
+              3,
+              5
+            ],
+            "score": 0.9570434525179536,
+            "sampling_step": 1,
+            "radius": 15
+          },
+          {
+            "level": 0,
+            "shape": [
+              341,
+              393
+            ],
+            "shift": [
+              6,
+              11
+            ],
+            "score": 0.9127253592675667,
+            "sampling_step": 1,
+            "radius": 2
+          }
+        ]
+      },
+      "pyramid_l2": {
+        "green": [
+          4,
+          5
+        ],
+        "red": [
+          6,
+          11
+        ],
+        "alignment_seconds": 0.0564,
+        "overlap_box": [
+          6,
+          11,
+          393,
+          341
+        ],
+        "trace_green": [
+          {
+            "level": 1,
+            "shape": [
+              171,
+              197
+            ],
+            "shift": [
+              2,
+              2
+            ],
+            "score": -0.010228466297450578,
+            "sampling_step": 1,
+            "radius": 15
+          },
+          {
+            "level": 0,
+            "shape": [
+              341,
+              393
+            ],
+            "shift": [
+              4,
+              5
+            ],
+            "score": -0.02253093120911927,
+            "sampling_step": 1,
+            "radius": 2
+          }
+        ],
+        "trace_red": [
+          {
+            "level": 1,
+            "shape": [
+              171,
+              197
+            ],
+            "shift": [
+              3,
+              5
+            ],
+            "score": -0.04143717252015462,
+            "sampling_step": 1,
+            "radius": 15
+          },
+          {
+            "level": 0,
+            "shape": [
+              341,
+              393
+            ],
+            "shift": [
+              6,
+              11
+            ],
+            "score": -0.07003137725020339,
+            "sampling_step": 1,
+            "radius": 2
+          }
+        ]
+      },
+      "edges_ncc": {
+        "green": [
+          4,
+          5
+        ],
+        "red": [
+          6,
+          11
+        ],
+        "alignment_seconds": 0.1153,
+        "overlap_box": [
+          6,
+          11,
+          393,
+          341
+        ],
+        "trace_green": [
+          {
+            "level": 1,
+            "shape": [
+              171,
+              197
+            ],
+            "shift": [
+              2,
+              2
+            ],
+            "score": 0.8954987936198648,
+            "sampling_step": 1,
+            "radius": 15
+          },
+          {
+            "level": 0,
+            "shape": [
+              341,
+              393
+            ],
+            "shift": [
+              4,
+              5
+            ],
+            "score": 0.9010384500780348,
+            "sampling_step": 1,
+            "radius": 2
+          }
+        ],
+        "trace_red": [
+          {
+            "level": 1,
+            "shape": [
+              171,
+              197
+            ],
+            "shift": [
+              3,
+              5
+            ],
+            "score": 0.7810589674900199,
+            "sampling_step": 1,
+            "radius": 15
+          },
+          {
+            "level": 0,
+            "shape": [
+              341,
+              393
+            ],
+            "shift": [
+              6,
+              11
+            ],
+            "score": 0.7649504566779897,
+            "sampling_step": 1,
+            "radius": 2
+          }
+        ]
+      }
+    },
+    "enhancements": {
+      "crop_box_in_overlap": [
+        20,
+        13,
+        376,
+        297
+      ],
+      "gray_world_gains_rgb": [
+        0.9487328011822458,
+        1.0264881779044115,
+        1.039433936668224
+      ],
+      "contrast_percentiles": [
+        0.0,
+        1.0
+      ],
+      "retained_area_fraction": 0.7544
+    }
+  },
+  {
+    "id": "01269v",
+    "group": "provided",
+    "channel_shape": [
+      341,
+      395
+    ],
+    "methods": {
+      "single_ncc": {
+        "green": [
+          2,
+          6
+        ],
+        "red": [
+          3,
+          13
+        ],
+        "alignment_seconds": 0.5726,
+        "overlap_box": [
+          3,
+          13,
+          395,
+          341
+        ],
+        "trace_green": [
+          {
+            "level": 0,
+            "shape": [
+              341,
+              395
+            ],
+            "shift": [
+              2,
+              6
+            ],
+            "score": 0.9687406692846732,
+            "sampling_step": 1,
+            "radius": 25
+          }
+        ],
+        "trace_red": [
+          {
+            "level": 0,
+            "shape": [
+              341,
+              395
+            ],
+            "shift": [
+              3,
+              13
+            ],
+            "score": 0.9418491830458809,
+            "sampling_step": 1,
+            "radius": 25
+          }
+        ]
+      },
+      "single_l2": {
+        "green": [
+          2,
+          6
+        ],
+        "red": [
+          -25,
+          25
+        ],
+        "alignment_seconds": 0.4068,
+        "overlap_box": [
+          2,
+          25,
+          370,
+          341
+        ],
+        "trace_green": [
+          {
+            "level": 0,
+            "shape": [
+              341,
+              395
+            ],
+            "shift": [
+              2,
+              6
+            ],
+            "score": -0.05519747897619702,
+            "sampling_step": 1,
+            "radius": 25
+          }
+        ],
+        "trace_red": [
+          {
+            "level": 0,
+            "shape": [
+              341,
+              395
+            ],
+            "shift": [
+              -25,
+              25
+            ],
+            "score": -0.13811950481213445,
+            "sampling_step": 1,
+            "radius": 25
+          }
+        ]
+      },
+      "pyramid_ncc": {
+        "green": [
+          2,
+          6
+        ],
+        "red": [
+          3,
+          13
+        ],
+        "alignment_seconds": 0.0733,
+        "overlap_box": [
+          3,
+          13,
+          395,
+          341
+        ],
+        "trace_green": [
+          {
+            "level": 1,
+            "shape": [
+              171,
+              198
+            ],
+            "shift": [
+              1,
+              3
+            ],
+            "score": 0.9762580906754312,
+            "sampling_step": 1,
+            "radius": 15
+          },
+          {
+            "level": 0,
+            "shape": [
+              341,
+              395
+            ],
+            "shift": [
+              2,
+              6
+            ],
+            "score": 0.9687406692846732,
+            "sampling_step": 1,
+            "radius": 2
+          }
+        ],
+        "trace_red": [
+          {
+            "level": 1,
+            "shape": [
+              171,
+              198
+            ],
+            "shift": [
+              1,
+              7
+            ],
+            "score": 0.9525005075386553,
+            "sampling_step": 1,
+            "radius": 15
+          },
+          {
+            "level": 0,
+            "shape": [
+              341,
+              395
+            ],
+            "shift": [
+              3,
+              13
+            ],
+            "score": 0.9418491830458809,
+            "sampling_step": 1,
+            "radius": 2
+          }
+        ]
+      },
+      "pyramid_l2": {
+        "green": [
+          2,
+          6
+        ],
+        "red": [
+          -32,
+          32
+        ],
+        "alignment_seconds": 0.0463,
+        "overlap_box": [
+          2,
+          32,
+          363,
+          341
+        ],
+        "trace_green": [
+          {
+            "level": 1,
+            "shape": [
+              171,
+              198
+            ],
+            "shift": [
+              1,
+              3
+            ],
+            "score": -0.051763791809201466,
+            "sampling_step": 1,
+            "radius": 15
+          },
+          {
+            "level": 0,
+            "shape": [
+              341,
+              395
+            ],
+            "shift": [
+              2,
+              6
+            ],
+            "score": -0.05519747897619702,
+            "sampling_step": 1,
+            "radius": 2
+          }
+        ],
+        "trace_red": [
+          {
+            "level": 1,
+            "shape": [
+              171,
+              198
+            ],
+            "shift": [
+              -15,
+              15
+            ],
+            "score": -0.12624559229163262,
+            "sampling_step": 1,
+            "radius": 15
+          },
+          {
+            "level": 0,
+            "shape": [
+              341,
+              395
+            ],
+            "shift": [
+              -32,
+              32
+            ],
+            "score": -0.1334256505676015,
+            "sampling_step": 1,
+            "radius": 2
+          }
+        ]
+      },
+      "edges_ncc": {
+        "green": [
+          2,
+          6
+        ],
+        "red": [
+          3,
+          13
+        ],
+        "alignment_seconds": 0.1024,
+        "overlap_box": [
+          3,
+          13,
+          395,
+          341
+        ],
+        "trace_green": [
+          {
+            "level": 1,
+            "shape": [
+              171,
+              198
+            ],
+            "shift": [
+              1,
+              3
+            ],
+            "score": 0.8861554091231009,
+            "sampling_step": 1,
+            "radius": 15
+          },
+          {
+            "level": 0,
+            "shape": [
+              341,
+              395
+            ],
+            "shift": [
+              2,
+              6
+            ],
+            "score": 0.8265195524774951,
+            "sampling_step": 1,
+            "radius": 2
+          }
+        ],
+        "trace_red": [
+          {
+            "level": 1,
+            "shape": [
+              171,
+              198
+            ],
+            "shift": [
+              1,
+              7
+            ],
+            "score": 0.7582843170582713,
+            "sampling_step": 1,
+            "radius": 15
+          },
+          {
+            "level": 0,
+            "shape": [
+              341,
+              395
+            ],
+            "shift": [
+              3,
+              13
+            ],
+            "score": 0.7383279391927071,
+            "sampling_step": 1,
+            "radius": 2
+          }
+        ]
+      }
+    },
+    "enhancements": {
+      "crop_box_in_overlap": [
+        47,
+        7,
+        370,
+        289
+      ],
+      "gray_world_gains_rgb": [
+        0.93,
+        0.9816550747944682,
+        1.0875
+      ],
+      "contrast_percentiles": [
+        0.14926470816135406,
+        0.8607059121131897
+      ],
+      "retained_area_fraction": 0.6762
+    }
+  },
+  {
+    "id": "01522v",
+    "group": "provided",
+    "channel_shape": [
+      341,
+      391
+    ],
+    "methods": {
+      "single_ncc": {
+        "green": [
+          2,
+          6
+        ],
+        "red": [
+          2,
+          13
+        ],
+        "alignment_seconds": 0.7085,
+        "overlap_box": [
+          2,
+          13,
+          391,
+          341
+        ],
+        "trace_green": [
+          {
+            "level": 0,
+            "shape": [
+              341,
+              391
+            ],
+            "shift": [
+              2,
+              6
+            ],
+            "score": 0.953536182371834,
+            "sampling_step": 1,
+            "radius": 25
+          }
+        ],
+        "trace_red": [
+          {
+            "level": 0,
+            "shape": [
+              341,
+              391
+            ],
+            "shift": [
+              2,
+              13
+            ],
+            "score": 0.9510449496217741,
+            "sampling_step": 1,
+            "radius": 25
+          }
+        ]
+      },
+      "single_l2": {
+        "green": [
+          2,
+          6
+        ],
+        "red": [
+          1,
+          13
+        ],
+        "alignment_seconds": 0.44,
+        "overlap_box": [
+          2,
+          13,
+          391,
+          341
+        ],
+        "trace_green": [
+          {
+            "level": 0,
+            "shape": [
+              341,
+              391
+            ],
+            "shift": [
+              2,
+              6
+            ],
+            "score": -0.047521963091079505,
+            "sampling_step": 1,
+            "radius": 25
+          }
+        ],
+        "trace_red": [
+          {
+            "level": 0,
+            "shape": [
+              341,
+              391
+            ],
+            "shift": [
+              1,
+              13
+            ],
+            "score": -0.05749623474375005,
+            "sampling_step": 1,
+            "radius": 25
+          }
+        ]
+      },
+      "pyramid_ncc": {
+        "green": [
+          2,
+          6
+        ],
+        "red": [
+          2,
+          13
+        ],
+        "alignment_seconds": 0.1136,
+        "overlap_box": [
+          2,
+          13,
+          391,
+          341
+        ],
+        "trace_green": [
+          {
+            "level": 1,
+            "shape": [
+              171,
+              196
+            ],
+            "shift": [
+              1,
+              3
+            ],
+            "score": 0.9605907627544037,
+            "sampling_step": 1,
+            "radius": 15
+          },
+          {
+            "level": 0,
+            "shape": [
+              341,
+              391
+            ],
+            "shift": [
+              2,
+              6
+            ],
+            "score": 0.953536182371834,
+            "sampling_step": 1,
+            "radius": 2
+          }
+        ],
+        "trace_red": [
+          {
+            "level": 1,
+            "shape": [
+              171,
+              196
+            ],
+            "shift": [
+              1,
+              6
+            ],
+            "score": 0.9575943326766209,
+            "sampling_step": 1,
+            "radius": 15
+          },
+          {
+            "level": 0,
+            "shape": [
+              341,
+              391
+            ],
+            "shift": [
+              2,
+              13
+            ],
+            "score": 0.9510449496217741,
+            "sampling_step": 1,
+            "radius": 2
+          }
+        ]
+      },
+      "pyramid_l2": {
+        "green": [
+          2,
+          6
+        ],
+        "red": [
+          1,
+          13
+        ],
+        "alignment_seconds": 0.0598,
+        "overlap_box": [
+          2,
+          13,
+          391,
+          341
+        ],
+        "trace_green": [
+          {
+            "level": 1,
+            "shape": [
+              171,
+              196
+            ],
+            "shift": [
+              1,
+              3
+            ],
+            "score": -0.04186428314307809,
+            "sampling_step": 1,
+            "radius": 15
+          },
+          {
+            "level": 0,
+            "shape": [
+              341,
+              391
+            ],
+            "shift": [
+              2,
+              6
+            ],
+            "score": -0.047521963091079505,
+            "sampling_step": 1,
+            "radius": 2
+          }
+        ],
+        "trace_red": [
+          {
+            "level": 1,
+            "shape": [
+              171,
+              196
+            ],
+            "shift": [
+              1,
+              6
+            ],
+            "score": -0.052598791907950006,
+            "sampling_step": 1,
+            "radius": 15
+          },
+          {
+            "level": 0,
+            "shape": [
+              341,
+              391
+            ],
+            "shift": [
+              1,
+              13
+            ],
+            "score": -0.05749623474375005,
+            "sampling_step": 1,
+            "radius": 2
+          }
+        ]
+      },
+      "edges_ncc": {
+        "green": [
+          2,
+          6
+        ],
+        "red": [
+          2,
+          13
+        ],
+        "alignment_seconds": 0.1089,
+        "overlap_box": [
+          2,
+          13,
+          391,
+          341
+        ],
+        "trace_green": [
+          {
+            "level": 1,
+            "shape": [
+              171,
+              196
+            ],
+            "shift": [
+              1,
+              3
+            ],
+            "score": 0.857602991011788,
+            "sampling_step": 1,
+            "radius": 15
+          },
+          {
+            "level": 0,
+            "shape": [
+              341,
+              391
+            ],
+            "shift": [
+              2,
+              6
+            ],
+            "score": 0.8089915466335766,
+            "sampling_step": 1,
+            "radius": 2
+          }
+        ],
+        "trace_red": [
+          {
+            "level": 1,
+            "shape": [
+              171,
+              196
+            ],
+            "shift": [
+              1,
+              6
+            ],
+            "score": 0.8160073619039251,
+            "sampling_step": 1,
+            "radius": 15
+          },
+          {
+            "level": 0,
+            "shape": [
+              341,
+              391
+            ],
+            "shift": [
+              2,
+              13
+            ],
+            "score": 0.7739554385876541,
+            "sampling_step": 1,
+            "radius": 2
+          }
+        ]
+      }
+    },
+    "enhancements": {
+      "crop_box_in_overlap": [
+        32,
+        7,
+        369,
+        324
+      ],
+      "gray_world_gains_rgb": [
+        0.9540896968891078,
+        0.9742032592843235,
+        1.0875
+      ],
+      "contrast_percentiles": [
+        0.10102126002311707,
+        1.0
+      ],
+      "retained_area_fraction": 0.8012
+    }
+  },
+  {
+    "id": "01597v",
+    "group": "provided",
+    "channel_shape": [
+      341,
+      395
+    ],
+    "methods": {
+      "single_ncc": {
+        "green": [
+          1,
+          7
+        ],
+        "red": [
+          1,
+          16
+        ],
+        "alignment_seconds": 0.5875,
+        "overlap_box": [
+          1,
+          16,
+          395,
+          341
+        ],
+        "trace_green": [
+          {
+            "level": 0,
+            "shape": [
+              341,
+              395
+            ],
+            "shift": [
+              1,
+              7
+            ],
+            "score": 0.9782306824615198,
+            "sampling_step": 1,
+            "radius": 25
+          }
+        ],
+        "trace_red": [
+          {
+            "level": 0,
+            "shape": [
+              341,
+              395
+            ],
+            "shift": [
+              1,
+              16
+            ],
+            "score": 0.9729854447683799,
+            "sampling_step": 1,
+            "radius": 25
+          }
+        ]
+      },
+      "single_l2": {
+        "green": [
+          1,
+          7
+        ],
+        "red": [
+          1,
+          16
+        ],
+        "alignment_seconds": 0.3762,
+        "overlap_box": [
+          1,
+          16,
+          395,
+          341
+        ],
+        "trace_green": [
+          {
+            "level": 0,
+            "shape": [
+              341,
+              395
+            ],
+            "shift": [
+              1,
+              7
+            ],
+            "score": -0.019771203755353475,
+            "sampling_step": 1,
+            "radius": 25
+          }
+        ],
+        "trace_red": [
+          {
+            "level": 0,
+            "shape": [
+              341,
+              395
+            ],
+            "shift": [
+              1,
+              16
+            ],
+            "score": -0.027697510528521808,
+            "sampling_step": 1,
+            "radius": 25
+          }
+        ]
+      },
+      "pyramid_ncc": {
+        "green": [
+          1,
+          7
+        ],
+        "red": [
+          1,
+          16
+        ],
+        "alignment_seconds": 0.0731,
+        "overlap_box": [
+          1,
+          16,
+          395,
+          341
+        ],
+        "trace_green": [
+          {
+            "level": 1,
+            "shape": [
+              171,
+              198
+            ],
+            "shift": [
+              1,
+              4
+            ],
+            "score": 0.9794265686409708,
+            "sampling_step": 1,
+            "radius": 15
+          },
+          {
+            "level": 0,
+            "shape": [
+              341,
+              395
+            ],
+            "shift": [
+              1,
+              7
+            ],
+            "score": 0.9782306824615198,
+            "sampling_step": 1,
+            "radius": 2
+          }
+        ],
+        "trace_red": [
+          {
+            "level": 1,
+            "shape": [
+              171,
+              198
+            ],
+            "shift": [
+              0,
+              8
+            ],
+            "score": 0.974851917474445,
+            "sampling_step": 1,
+            "radius": 15
+          },
+          {
+            "level": 0,
+            "shape": [
+              341,
+              395
+            ],
+            "shift": [
+              1,
+              16
+            ],
+            "score": 0.9729854447683799,
+            "sampling_step": 1,
+            "radius": 2
+          }
+        ]
+      },
+      "pyramid_l2": {
+        "green": [
+          1,
+          7
+        ],
+        "red": [
+          1,
+          16
+        ],
+        "alignment_seconds": 0.0474,
+        "overlap_box": [
+          1,
+          16,
+          395,
+          341
+        ],
+        "trace_green": [
+          {
+            "level": 1,
+            "shape": [
+              171,
+              198
+            ],
+            "shift": [
+              1,
+              4
+            ],
+            "score": -0.018711302755467722,
+            "sampling_step": 1,
+            "radius": 15
+          },
+          {
+            "level": 0,
+            "shape": [
+              341,
+              395
+            ],
+            "shift": [
+              1,
+              7
+            ],
+            "score": -0.019771203755353475,
+            "sampling_step": 1,
+            "radius": 2
+          }
+        ],
+        "trace_red": [
+          {
+            "level": 1,
+            "shape": [
+              171,
+              198
+            ],
+            "shift": [
+              0,
+              8
+            ],
+            "score": -0.026064308217828486,
+            "sampling_step": 1,
+            "radius": 15
+          },
+          {
+            "level": 0,
+            "shape": [
+              341,
+              395
+            ],
+            "shift": [
+              1,
+              16
+            ],
+            "score": -0.027697510528521808,
+            "sampling_step": 1,
+            "radius": 2
+          }
+        ]
+      },
+      "edges_ncc": {
+        "green": [
+          1,
+          7
+        ],
+        "red": [
+          1,
+          16
+        ],
+        "alignment_seconds": 0.0819,
+        "overlap_box": [
+          1,
+          16,
+          395,
+          341
+        ],
+        "trace_green": [
+          {
+            "level": 1,
+            "shape": [
+              171,
+              198
+            ],
+            "shift": [
+              1,
+              4
+            ],
+            "score": 0.8647703970862718,
+            "sampling_step": 1,
+            "radius": 15
+          },
+          {
+            "level": 0,
+            "shape": [
+              341,
+              395
+            ],
+            "shift": [
+              1,
+              7
+            ],
+            "score": 0.852502642981755,
+            "sampling_step": 1,
+            "radius": 2
+          }
+        ],
+        "trace_red": [
+          {
+            "level": 1,
+            "shape": [
+              171,
+              198
+            ],
+            "shift": [
+              0,
+              8
+            ],
+            "score": 0.8463718252065775,
+            "sampling_step": 1,
+            "radius": 15
+          },
+          {
+            "level": 0,
+            "shape": [
+              341,
+              395
+            ],
+            "shift": [
+              1,
+              16
+            ],
+            "score": 0.7871305831936325,
+            "sampling_step": 1,
+            "radius": 2
+          }
+        ]
+      }
+    },
+    "enhancements": {
+      "crop_box_in_overlap": [
+        25,
+        1,
+        347,
+        286
+      ],
+      "gray_world_gains_rgb": [
+        0.9920924833471375,
+        0.9959280113889574,
+        1.0126515885290701
+      ],
+      "contrast_percentiles": [
+        0.08559229224920273,
+        0.9764000177383423
+      ],
+      "retained_area_fraction": 0.6813
+    }
+  },
+  {
+    "id": "01598v",
+    "group": "provided",
+    "channel_shape": [
+      341,
+      392
+    ],
+    "methods": {
+      "single_ncc": {
+        "green": [
+          0,
+          8
+        ],
+        "red": [
+          -1,
+          16
+        ],
+        "alignment_seconds": 0.7531,
+        "overlap_box": [
+          0,
+          16,
+          391,
+          341
+        ],
+        "trace_green": [
+          {
+            "level": 0,
+            "shape": [
+              341,
+              392
+            ],
+            "shift": [
+              0,
+              8
+            ],
+            "score": 0.965018767749471,
+            "sampling_step": 1,
+            "radius": 25
+          }
+        ],
+        "trace_red": [
+          {
+            "level": 0,
+            "shape": [
+              341,
+              392
+            ],
+            "shift": [
+              -1,
+              16
+            ],
+            "score": 0.9513261053525484,
+            "sampling_step": 1,
+            "radius": 25
+          }
+        ]
+      },
+      "single_l2": {
+        "green": [
+          0,
+          8
+        ],
+        "red": [
+          -1,
+          17
+        ],
+        "alignment_seconds": 0.3441,
+        "overlap_box": [
+          0,
+          17,
+          391,
+          341
+        ],
+        "trace_green": [
+          {
+            "level": 0,
+            "shape": [
+              341,
+              392
+            ],
+            "shift": [
+              0,
+              8
+            ],
+            "score": -0.014097128804858047,
+            "sampling_step": 1,
+            "radius": 25
+          }
+        ],
+        "trace_red": [
+          {
+            "level": 0,
+            "shape": [
+              341,
+              392
+            ],
+            "shift": [
+              -1,
+              17
+            ],
+            "score": -0.0379862655564263,
+            "sampling_step": 1,
+            "radius": 25
+          }
+        ]
+      },
+      "pyramid_ncc": {
+        "green": [
+          0,
+          8
+        ],
+        "red": [
+          -1,
+          16
+        ],
+        "alignment_seconds": 0.075,
+        "overlap_box": [
+          0,
+          16,
+          391,
+          341
+        ],
+        "trace_green": [
+          {
+            "level": 1,
+            "shape": [
+              171,
+              196
+            ],
+            "shift": [
+              0,
+              4
+            ],
+            "score": 0.9709940646125268,
+            "sampling_step": 1,
+            "radius": 15
+          },
+          {
+            "level": 0,
+            "shape": [
+              341,
+              392
+            ],
+            "shift": [
+              0,
+              8
+            ],
+            "score": 0.965018767749471,
+            "sampling_step": 1,
+            "radius": 2
+          }
+        ],
+        "trace_red": [
+          {
+            "level": 1,
+            "shape": [
+              171,
+              196
+            ],
+            "shift": [
+              -1,
+              8
+            ],
+            "score": 0.9604572967496533,
+            "sampling_step": 1,
+            "radius": 15
+          },
+          {
+            "level": 0,
+            "shape": [
+              341,
+              392
+            ],
+            "shift": [
+              -1,
+              16
+            ],
+            "score": 0.9513261053525484,
+            "sampling_step": 1,
+            "radius": 2
+          }
+        ]
+      },
+      "pyramid_l2": {
+        "green": [
+          0,
+          8
+        ],
+        "red": [
+          -1,
+          17
+        ],
+        "alignment_seconds": 0.0553,
+        "overlap_box": [
+          0,
+          17,
+          391,
+          341
+        ],
+        "trace_green": [
+          {
+            "level": 1,
+            "shape": [
+              171,
+              196
+            ],
+            "shift": [
+              0,
+              4
+            ],
+            "score": -0.0122436413171201,
+            "sampling_step": 1,
+            "radius": 15
+          },
+          {
+            "level": 0,
+            "shape": [
+              341,
+              392
+            ],
+            "shift": [
+              0,
+              8
+            ],
+            "score": -0.014097128804858047,
+            "sampling_step": 1,
+            "radius": 2
+          }
+        ],
+        "trace_red": [
+          {
+            "level": 1,
+            "shape": [
+              171,
+              196
+            ],
+            "shift": [
+              -1,
+              9
+            ],
+            "score": -0.03522218102694141,
+            "sampling_step": 1,
+            "radius": 15
+          },
+          {
+            "level": 0,
+            "shape": [
+              341,
+              392
+            ],
+            "shift": [
+              -1,
+              17
+            ],
+            "score": -0.0379862655564263,
+            "sampling_step": 1,
+            "radius": 2
+          }
+        ]
+      },
+      "edges_ncc": {
+        "green": [
+          0,
+          8
+        ],
+        "red": [
+          -1,
+          16
+        ],
+        "alignment_seconds": 0.0807,
+        "overlap_box": [
+          0,
+          16,
+          391,
+          341
+        ],
+        "trace_green": [
+          {
+            "level": 1,
+            "shape": [
+              171,
+              196
+            ],
+            "shift": [
+              0,
+              4
+            ],
+            "score": 0.9206670557329313,
+            "sampling_step": 1,
+            "radius": 15
+          },
+          {
+            "level": 0,
+            "shape": [
+              341,
+              392
+            ],
+            "shift": [
+              0,
+              8
+            ],
+            "score": 0.861988706289616,
+            "sampling_step": 1,
+            "radius": 2
+          }
+        ],
+        "trace_red": [
+          {
+            "level": 1,
+            "shape": [
+              171,
+              196
+            ],
+            "shift": [
+              -1,
+              8
+            ],
+            "score": 0.7991645186800387,
+            "sampling_step": 1,
+            "radius": 15
+          },
+          {
+            "level": 0,
+            "shape": [
+              341,
+              392
+            ],
+            "shift": [
+              -1,
+              16
+            ],
+            "score": 0.7470819206495015,
+            "sampling_step": 1,
+            "radius": 2
+          }
+        ]
+      }
+    },
+    "enhancements": {
+      "crop_box_in_overlap": [
+        13,
+        0,
+        380,
+        320
+      ],
+      "gray_world_gains_rgb": [
+        0.939173533716855,
+        1.0130758625913234,
+        1.0738990728243631
+      ],
+      "contrast_percentiles": [
+        0.03790232166647911,
+        0.7918521761894226
+      ],
+      "retained_area_fraction": 0.8786
+    }
+  },
+  {
+    "id": "01653v",
+    "group": "additional",
+    "channel_shape": [
+      341,
+      396
+    ],
+    "methods": {
+      "single_ncc": {
+        "green": [
+          -2,
+          7
+        ],
+        "red": [
+          -3,
+          21
+        ],
+        "alignment_seconds": 0.5455,
+        "overlap_box": [
+          0,
+          21,
+          393,
+          341
+        ],
+        "trace_green": [
+          {
+            "level": 0,
+            "shape": [
+              341,
+              396
+            ],
+            "shift": [
+              -2,
+              7
+            ],
+            "score": 0.991298718256819,
+            "sampling_step": 1,
+            "radius": 25
+          }
+        ],
+        "trace_red": [
+          {
+            "level": 0,
+            "shape": [
+              341,
+              396
+            ],
+            "shift": [
+              -3,
+              21
+            ],
+            "score": 0.9761939935571031,
+            "sampling_step": 1,
+            "radius": 25
+          }
+        ]
+      },
+      "single_l2": {
+        "green": [
+          -2,
+          7
+        ],
+        "red": [
+          -3,
+          21
+        ],
+        "alignment_seconds": 0.3874,
+        "overlap_box": [
+          0,
+          21,
+          393,
+          341
+        ],
+        "trace_green": [
+          {
+            "level": 0,
+            "shape": [
+              341,
+              396
+            ],
+            "shift": [
+              -2,
+              7
+            ],
+            "score": -0.011239722633404881,
+            "sampling_step": 1,
+            "radius": 25
+          }
+        ],
+        "trace_red": [
+          {
+            "level": 0,
+            "shape": [
+              341,
+              396
+            ],
+            "shift": [
+              -3,
+              21
+            ],
+            "score": -0.04293322457011026,
+            "sampling_step": 1,
+            "radius": 25
+          }
+        ]
+      },
+      "pyramid_ncc": {
+        "green": [
+          -2,
+          7
+        ],
+        "red": [
+          -3,
+          21
+        ],
+        "alignment_seconds": 0.0777,
+        "overlap_box": [
+          0,
+          21,
+          393,
+          341
+        ],
+        "trace_green": [
+          {
+            "level": 1,
+            "shape": [
+              171,
+              198
+            ],
+            "shift": [
+              -1,
+              3
+            ],
+            "score": 0.9941498073993134,
+            "sampling_step": 1,
+            "radius": 15
+          },
+          {
+            "level": 0,
+            "shape": [
+              341,
+              396
+            ],
+            "shift": [
+              -2,
+              7
+            ],
+            "score": 0.991298718256819,
+            "sampling_step": 1,
+            "radius": 2
+          }
+        ],
+        "trace_red": [
+          {
+            "level": 1,
+            "shape": [
+              171,
+              198
+            ],
+            "shift": [
+              -2,
+              10
+            ],
+            "score": 0.9803199619633964,
+            "sampling_step": 1,
+            "radius": 15
+          },
+          {
+            "level": 0,
+            "shape": [
+              341,
+              396
+            ],
+            "shift": [
+              -3,
+              21
+            ],
+            "score": 0.9761939935571031,
+            "sampling_step": 1,
+            "radius": 2
+          }
+        ]
+      },
+      "pyramid_l2": {
+        "green": [
+          -2,
+          7
+        ],
+        "red": [
+          -3,
+          21
+        ],
+        "alignment_seconds": 0.055,
+        "overlap_box": [
+          0,
+          21,
+          393,
+          341
+        ],
+        "trace_green": [
+          {
+            "level": 1,
+            "shape": [
+              171,
+              198
+            ],
+            "shift": [
+              -1,
+              3
+            ],
+            "score": -0.008152118947125407,
+            "sampling_step": 1,
+            "radius": 15
+          },
+          {
+            "level": 0,
+            "shape": [
+              341,
+              396
+            ],
+            "shift": [
+              -2,
+              7
+            ],
+            "score": -0.011239722633404881,
+            "sampling_step": 1,
+            "radius": 2
+          }
+        ],
+        "trace_red": [
+          {
+            "level": 1,
+            "shape": [
+              171,
+              198
+            ],
+            "shift": [
+              -2,
+              10
+            ],
+            "score": -0.039420075908418103,
+            "sampling_step": 1,
+            "radius": 15
+          },
+          {
+            "level": 0,
+            "shape": [
+              341,
+              396
+            ],
+            "shift": [
+              -3,
+              21
+            ],
+            "score": -0.04293322457011026,
+            "sampling_step": 1,
+            "radius": 2
+          }
+        ]
+      },
+      "edges_ncc": {
+        "green": [
+          -2,
+          7
+        ],
+        "red": [
+          -3,
+          21
+        ],
+        "alignment_seconds": 0.103,
+        "overlap_box": [
+          0,
+          21,
+          393,
+          341
+        ],
+        "trace_green": [
+          {
+            "level": 1,
+            "shape": [
+              171,
+              198
+            ],
+            "shift": [
+              -1,
+              3
+            ],
+            "score": 0.7790356907742193,
+            "sampling_step": 1,
+            "radius": 15
+          },
+          {
+            "level": 0,
+            "shape": [
+              341,
+              396
+            ],
+            "shift": [
+              -2,
+              7
+            ],
+            "score": 0.7433222764163446,
+            "sampling_step": 1,
+            "radius": 2
+          }
+        ],
+        "trace_red": [
+          {
+            "level": 1,
+            "shape": [
+              171,
+              198
+            ],
+            "shift": [
+              -1,
+              10
+            ],
+            "score": 0.7123718905236988,
+            "sampling_step": 1,
+            "radius": 15
+          },
+          {
+            "level": 0,
+            "shape": [
+              341,
+              396
+            ],
+            "shift": [
+              -3,
+              21
+            ],
+            "score": 0.7036787866965738,
+            "sampling_step": 1,
+            "radius": 2
+          }
+        ]
+      }
+    },
+    "enhancements": {
+      "crop_box_in_overlap": [
+        27,
+        17,
+        377,
+        320
+      ],
+      "gray_world_gains_rgb": [
+        1.0550170999368755,
+        0.9886398214384118,
+        0.9675200883282575
+      ],
+      "contrast_percentiles": [
+        0.016549289226531982,
+        0.944754958152771
+      ],
+      "retained_area_fraction": 0.7853
+    }
+  },
+  {
+    "id": "01657u",
+    "group": "provided",
+    "channel_shape": [
+      3212,
+      3761
+    ],
+    "methods": {
+      "pyramid_ncc": {
+        "green": [
+          8,
+          55
+        ],
+        "red": [
+          12,
+          117
+        ],
+        "alignment_seconds": 0.7179,
+        "overlap_box": [
+          12,
+          117,
+          3761,
+          3212
+        ],
+        "trace_green": [
+          {
+            "level": 4,
+            "shape": [
+              201,
+              236
+            ],
+            "shift": [
+              0,
+              3
+            ],
+            "score": 0.9874207071199234,
+            "sampling_step": 1,
+            "radius": 15
+          },
+          {
+            "level": 3,
+            "shape": [
+              402,
+              471
+            ],
+            "shift": [
+              1,
+              7
+            ],
+            "score": 0.9877148822546044,
+            "sampling_step": 1,
+            "radius": 2
+          },
+          {
+            "level": 2,
+            "shape": [
+              803,
+              941
+            ],
+            "shift": [
+              2,
+              14
+            ],
+            "score": 0.9874446316369461,
+            "sampling_step": 2,
+            "radius": 2
+          },
+          {
+            "level": 1,
+            "shape": [
+              1606,
+              1881
+            ],
+            "shift": [
+              4,
+              27
+            ],
+            "score": 0.9871926850795835,
+            "sampling_step": 3,
+            "radius": 2
+          },
+          {
+            "level": 0,
+            "shape": [
+              3212,
+              3761
+            ],
+            "shift": [
+              8,
+              55
+            ],
+            "score": 0.9869885154304231,
+            "sampling_step": 6,
+            "radius": 2
+          }
+        ],
+        "trace_red": [
+          {
+            "level": 4,
+            "shape": [
+              201,
+              236
+            ],
+            "shift": [
+              1,
+              7
+            ],
+            "score": 0.9800181159973193,
+            "sampling_step": 1,
+            "radius": 15
+          },
+          {
+            "level": 3,
+            "shape": [
+              402,
+              471
+            ],
+            "shift": [
+              1,
+              14
+            ],
+            "score": 0.9795541159072554,
+            "sampling_step": 1,
+            "radius": 2
+          },
+          {
+            "level": 2,
+            "shape": [
+              803,
+              941
+            ],
+            "shift": [
+              3,
+              29
+            ],
+            "score": 0.9793561430138344,
+            "sampling_step": 2,
+            "radius": 2
+          },
+          {
+            "level": 1,
+            "shape": [
+              1606,
+              1881
+            ],
+            "shift": [
+              6,
+              58
+            ],
+            "score": 0.9790173316384997,
+            "sampling_step": 3,
+            "radius": 2
+          },
+          {
+            "level": 0,
+            "shape": [
+              3212,
+              3761
+            ],
+            "shift": [
+              12,
+              117
+            ],
+            "score": 0.9788913858303927,
+            "sampling_step": 6,
+            "radius": 2
+          }
+        ]
+      },
+      "pyramid_l2": {
+        "green": [
+          8,
+          55
+        ],
+        "red": [
+          12,
+          116
+        ],
+        "alignment_seconds": 0.6445,
+        "overlap_box": [
+          12,
+          116,
+          3761,
+          3212
+        ],
+        "trace_green": [
+          {
+            "level": 4,
+            "shape": [
+              201,
+              236
+            ],
+            "shift": [
+              0,
+              4
+            ],
+            "score": -0.010775236028108178,
+            "sampling_step": 1,
+            "radius": 15
+          },
+          {
+            "level": 3,
+            "shape": [
+              402,
+              471
+            ],
+            "shift": [
+              1,
+              7
+            ],
+            "score": -0.010464611656350374,
+            "sampling_step": 1,
+            "radius": 2
+          },
+          {
+            "level": 2,
+            "shape": [
+              803,
+              941
+            ],
+            "shift": [
+              2,
+              14
+            ],
+            "score": -0.010609807989831454,
+            "sampling_step": 2,
+            "radius": 2
+          },
+          {
+            "level": 1,
+            "shape": [
+              1606,
+              1881
+            ],
+            "shift": [
+              4,
+              28
+            ],
+            "score": -0.01074446209704521,
+            "sampling_step": 3,
+            "radius": 2
+          },
+          {
+            "level": 0,
+            "shape": [
+              3212,
+              3761
+            ],
+            "shift": [
+              8,
+              55
+            ],
+            "score": -0.010865289141484425,
+            "sampling_step": 6,
+            "radius": 2
+          }
+        ],
+        "trace_red": [
+          {
+            "level": 4,
+            "shape": [
+              201,
+              236
+            ],
+            "shift": [
+              1,
+              7
+            ],
+            "score": -0.016853929268241252,
+            "sampling_step": 1,
+            "radius": 15
+          },
+          {
+            "level": 3,
+            "shape": [
+              402,
+              471
+            ],
+            "shift": [
+              1,
+              14
+            ],
+            "score": -0.017207517151584924,
+            "sampling_step": 1,
+            "radius": 2
+          },
+          {
+            "level": 2,
+            "shape": [
+              803,
+              941
+            ],
+            "shift": [
+              3,
+              29
+            ],
+            "score": -0.017421178268997944,
+            "sampling_step": 2,
+            "radius": 2
+          },
+          {
+            "level": 1,
+            "shape": [
+              1606,
+              1881
+            ],
+            "shift": [
+              6,
+              58
+            ],
+            "score": -0.017692921087028076,
+            "sampling_step": 3,
+            "radius": 2
+          },
+          {
+            "level": 0,
+            "shape": [
+              3212,
+              3761
+            ],
+            "shift": [
+              12,
+              116
+            ],
+            "score": -0.01780899073065437,
+            "sampling_step": 6,
+            "radius": 2
+          }
+        ]
+      },
+      "edges_ncc": {
+        "green": [
+          9,
+          56
+        ],
+        "red": [
+          13,
+          119
+        ],
+        "alignment_seconds": 1.1648,
+        "overlap_box": [
+          13,
+          119,
+          3761,
+          3212
+        ],
+        "trace_green": [
+          {
+            "level": 4,
+            "shape": [
+              201,
+              236
+            ],
+            "shift": [
+              1,
+              3
+            ],
+            "score": 0.9135807292872759,
+            "sampling_step": 1,
+            "radius": 15
+          },
+          {
+            "level": 3,
+            "shape": [
+              402,
+              471
+            ],
+            "shift": [
+              1,
+              7
+            ],
+            "score": 0.9169645666347488,
+            "sampling_step": 1,
+            "radius": 2
+          },
+          {
+            "level": 2,
+            "shape": [
+              803,
+              941
+            ],
+            "shift": [
+              2,
+              14
+            ],
+            "score": 0.8660995842760773,
+            "sampling_step": 2,
+            "radius": 2
+          },
+          {
+            "level": 1,
+            "shape": [
+              1606,
+              1881
+            ],
+            "shift": [
+              5,
+              28
+            ],
+            "score": 0.811036860504853,
+            "sampling_step": 3,
+            "radius": 2
+          },
+          {
+            "level": 0,
+            "shape": [
+              3212,
+              3761
+            ],
+            "shift": [
+              9,
+              56
+            ],
+            "score": 0.7711015477037566,
+            "sampling_step": 6,
+            "radius": 2
+          }
+        ],
+        "trace_red": [
+          {
+            "level": 4,
+            "shape": [
+              201,
+              236
+            ],
+            "shift": [
+              1,
+              7
+            ],
+            "score": 0.8769702491041467,
+            "sampling_step": 1,
+            "radius": 15
+          },
+          {
+            "level": 3,
+            "shape": [
+              402,
+              471
+            ],
+            "shift": [
+              2,
+              14
+            ],
+            "score": 0.8166455337640229,
+            "sampling_step": 1,
+            "radius": 2
+          },
+          {
+            "level": 2,
+            "shape": [
+              803,
+              941
+            ],
+            "shift": [
+              3,
+              29
+            ],
+            "score": 0.7808961845580589,
+            "sampling_step": 2,
+            "radius": 2
+          },
+          {
+            "level": 1,
+            "shape": [
+              1606,
+              1881
+            ],
+            "shift": [
+              6,
+              60
+            ],
+            "score": 0.7336208169930366,
+            "sampling_step": 3,
+            "radius": 2
+          },
+          {
+            "level": 0,
+            "shape": [
+              3212,
+              3761
+            ],
+            "shift": [
+              13,
+              119
+            ],
+            "score": 0.7389796137012866,
+            "sampling_step": 6,
+            "radius": 2
+          }
+        ]
+      }
+    },
+    "enhancements": {
+      "crop_box_in_overlap": [
+        169,
+        107,
+        3633,
+        2981
+      ],
+      "gray_world_gains_rgb": [
+        0.9564746568131766,
+        1.0549678978962675,
+        1.0022138132970095
+      ],
+      "contrast_percentiles": [
+        0.07860545068979263,
+        0.9189658761024475
+      ],
+      "retained_area_fraction": 0.8241
+    }
+  },
+  {
+    "id": "01725u",
+    "group": "provided",
+    "channel_shape": [
+      3231,
+      3731
+    ],
+    "methods": {
+      "pyramid_ncc": {
+        "green": [
+          44,
+          77
+        ],
+        "red": [
+          78,
+          162
+        ],
+        "alignment_seconds": 0.6931,
+        "overlap_box": [
+          78,
+          162,
+          3731,
+          3231
+        ],
+        "trace_green": [
+          {
+            "level": 4,
+            "shape": [
+              202,
+              234
+            ],
+            "shift": [
+              3,
+              5
+            ],
+            "score": 0.978307340635266,
+            "sampling_step": 1,
+            "radius": 15
+          },
+          {
+            "level": 3,
+            "shape": [
+              404,
+              467
+            ],
+            "shift": [
+              6,
+              10
+            ],
+            "score": 0.9755671913345453,
+            "sampling_step": 1,
+            "radius": 2
+          },
+          {
+            "level": 2,
+            "shape": [
+              808,
+              933
+            ],
+            "shift": [
+              11,
+              19
+            ],
+            "score": 0.9728744341076104,
+            "sampling_step": 2,
+            "radius": 2
+          },
+          {
+            "level": 1,
+            "shape": [
+              1616,
+              1866
+            ],
+            "shift": [
+              22,
+              39
+            ],
+            "score": 0.9683097365301976,
+            "sampling_step": 3,
+            "radius": 2
+          },
+          {
+            "level": 0,
+            "shape": [
+              3231,
+              3731
+            ],
+            "shift": [
+              44,
+              77
+            ],
+            "score": 0.9640199070426936,
+            "sampling_step": 6,
+            "radius": 2
+          }
+        ],
+        "trace_red": [
+          {
+            "level": 4,
+            "shape": [
+              202,
+              234
+            ],
+            "shift": [
+              5,
+              10
+            ],
+            "score": 0.9615764723861858,
+            "sampling_step": 1,
+            "radius": 15
+          },
+          {
+            "level": 3,
+            "shape": [
+              404,
+              467
+            ],
+            "shift": [
+              10,
+              20
+            ],
+            "score": 0.956962868030785,
+            "sampling_step": 1,
+            "radius": 2
+          },
+          {
+            "level": 2,
+            "shape": [
+              808,
+              933
+            ],
+            "shift": [
+              19,
+              40
+            ],
+            "score": 0.9520711326122308,
+            "sampling_step": 2,
+            "radius": 2
+          },
+          {
+            "level": 1,
+            "shape": [
+              1616,
+              1866
+            ],
+            "shift": [
+              39,
+              81
+            ],
+            "score": 0.9477669409705642,
+            "sampling_step": 3,
+            "radius": 2
+          },
+          {
+            "level": 0,
+            "shape": [
+              3231,
+              3731
+            ],
+            "shift": [
+              78,
+              162
+            ],
+            "score": 0.944020115440319,
+            "sampling_step": 6,
+            "radius": 2
+          }
+        ]
+      },
+      "pyramid_l2": {
+        "green": [
+          44,
+          77
+        ],
+        "red": [
+          78,
+          162
+        ],
+        "alignment_seconds": 0.644,
+        "overlap_box": [
+          78,
+          162,
+          3731,
+          3231
+        ],
+        "trace_green": [
+          {
+            "level": 4,
+            "shape": [
+              202,
+              234
+            ],
+            "shift": [
+              3,
+              5
+            ],
+            "score": -0.006471338349833224,
+            "sampling_step": 1,
+            "radius": 15
+          },
+          {
+            "level": 3,
+            "shape": [
+              404,
+              467
+            ],
+            "shift": [
+              6,
+              10
+            ],
+            "score": -0.007195511181520566,
+            "sampling_step": 1,
+            "radius": 2
+          },
+          {
+            "level": 2,
+            "shape": [
+              808,
+              933
+            ],
+            "shift": [
+              11,
+              19
+            ],
+            "score": -0.007912136245472205,
+            "sampling_step": 2,
+            "radius": 2
+          },
+          {
+            "level": 1,
+            "shape": [
+              1616,
+              1866
+            ],
+            "shift": [
+              22,
+              39
+            ],
+            "score": -0.008923810676313992,
+            "sampling_step": 3,
+            "radius": 2
+          },
+          {
+            "level": 0,
+            "shape": [
+              3231,
+              3731
+            ],
+            "shift": [
+              44,
+              77
+            ],
+            "score": -0.00988327882912095,
+            "sampling_step": 6,
+            "radius": 2
+          }
+        ],
+        "trace_red": [
+          {
+            "level": 4,
+            "shape": [
+              202,
+              234
+            ],
+            "shift": [
+              4,
+              11
+            ],
+            "score": -0.051717301216736,
+            "sampling_step": 1,
+            "radius": 15
+          },
+          {
+            "level": 3,
+            "shape": [
+              404,
+              467
+            ],
+            "shift": [
+              9,
+              21
+            ],
+            "score": -0.05449143791909584,
+            "sampling_step": 1,
+            "radius": 2
+          },
+          {
+            "level": 2,
+            "shape": [
+              808,
+              933
+            ],
+            "shift": [
+              19,
+              41
+            ],
+            "score": -0.05671271785395836,
+            "sampling_step": 2,
+            "radius": 2
+          },
+          {
+            "level": 1,
+            "shape": [
+              1616,
+              1866
+            ],
+            "shift": [
+              39,
+              81
+            ],
+            "score": -0.058507883039074254,
+            "sampling_step": 3,
+            "radius": 2
+          },
+          {
+            "level": 0,
+            "shape": [
+              3231,
+              3731
+            ],
+            "shift": [
+              78,
+              162
+            ],
+            "score": -0.05981837234246948,
+            "sampling_step": 6,
+            "radius": 2
+          }
+        ]
+      },
+      "edges_ncc": {
+        "green": [
+          44,
+          76
+        ],
+        "red": [
+          76,
+          160
+        ],
+        "alignment_seconds": 1.0891,
+        "overlap_box": [
+          76,
+          160,
+          3731,
+          3231
+        ],
+        "trace_green": [
+          {
+            "level": 4,
+            "shape": [
+              202,
+              234
+            ],
+            "shift": [
+              3,
+              5
+            ],
+            "score": 0.9293703939835773,
+            "sampling_step": 1,
+            "radius": 15
+          },
+          {
+            "level": 3,
+            "shape": [
+              404,
+              467
+            ],
+            "shift": [
+              6,
+              10
+            ],
+            "score": 0.8749759083322831,
+            "sampling_step": 1,
+            "radius": 2
+          },
+          {
+            "level": 2,
+            "shape": [
+              808,
+              933
+            ],
+            "shift": [
+              11,
+              19
+            ],
+            "score": 0.8197691596113726,
+            "sampling_step": 2,
+            "radius": 2
+          },
+          {
+            "level": 1,
+            "shape": [
+              1616,
+              1866
+            ],
+            "shift": [
+              22,
+              38
+            ],
+            "score": 0.7464205654479908,
+            "sampling_step": 3,
+            "radius": 2
+          },
+          {
+            "level": 0,
+            "shape": [
+              3231,
+              3731
+            ],
+            "shift": [
+              44,
+              76
+            ],
+            "score": 0.7249683798791351,
+            "sampling_step": 6,
+            "radius": 2
+          }
+        ],
+        "trace_red": [
+          {
+            "level": 4,
+            "shape": [
+              202,
+              234
+            ],
+            "shift": [
+              5,
+              10
+            ],
+            "score": 0.7620466452053094,
+            "sampling_step": 1,
+            "radius": 15
+          },
+          {
+            "level": 3,
+            "shape": [
+              404,
+              467
+            ],
+            "shift": [
+              10,
+              20
+            ],
+            "score": 0.7129570813805102,
+            "sampling_step": 1,
+            "radius": 2
+          },
+          {
+            "level": 2,
+            "shape": [
+              808,
+              933
+            ],
+            "shift": [
+              19,
+              40
+            ],
+            "score": 0.6610419744740791,
+            "sampling_step": 2,
+            "radius": 2
+          },
+          {
+            "level": 1,
+            "shape": [
+              1616,
+              1866
+            ],
+            "shift": [
+              38,
+              81
+            ],
+            "score": 0.6273148624977024,
+            "sampling_step": 3,
+            "radius": 2
+          },
+          {
+            "level": 0,
+            "shape": [
+              3231,
+              3731
+            ],
+            "shift": [
+              76,
+              160
+            ],
+            "score": 0.6381930073782088,
+            "sampling_step": 6,
+            "radius": 2
+          }
+        ]
+      }
+    },
+    "enhancements": {
+      "crop_box_in_overlap": [
+        435,
+        0,
+        3500,
+        2703
+      ],
+      "gray_world_gains_rgb": [
+        0.93,
+        1.022741861934484,
+        1.0835974306679257
+      ],
+      "contrast_percentiles": [
+        0.05835294350981712,
+        0.8242353200912476
+      ],
+      "retained_area_fraction": 0.6872
+    }
+  },
+  {
+    "id": "01728v",
+    "group": "provided",
+    "channel_shape": [
+      341,
+      397
+    ],
+    "methods": {
+      "single_ncc": {
+        "green": [
+          1,
+          8
+        ],
+        "red": [
+          1,
+          18
+        ],
+        "alignment_seconds": 0.5479,
+        "overlap_box": [
+          1,
+          18,
+          397,
+          341
+        ],
+        "trace_green": [
+          {
+            "level": 0,
+            "shape": [
+              341,
+              397
+            ],
+            "shift": [
+              1,
+              8
+            ],
+            "score": 0.9821052065619077,
+            "sampling_step": 1,
+            "radius": 25
+          }
+        ],
+        "trace_red": [
+          {
+            "level": 0,
+            "shape": [
+              341,
+              397
+            ],
+            "shift": [
+              1,
+              18
+            ],
+            "score": 0.971495355878904,
+            "sampling_step": 1,
+            "radius": 25
+          }
+        ]
+      },
+      "single_l2": {
+        "green": [
+          1,
+          8
+        ],
+        "red": [
+          1,
+          18
+        ],
+        "alignment_seconds": 0.4344,
+        "overlap_box": [
+          1,
+          18,
+          397,
+          341
+        ],
+        "trace_green": [
+          {
+            "level": 0,
+            "shape": [
+              341,
+              397
+            ],
+            "shift": [
+              1,
+              8
+            ],
+            "score": -0.01184633905402472,
+            "sampling_step": 1,
+            "radius": 25
+          }
+        ],
+        "trace_red": [
+          {
+            "level": 0,
+            "shape": [
+              341,
+              397
+            ],
+            "shift": [
+              1,
+              18
+            ],
+            "score": -0.031533948440225,
+            "sampling_step": 1,
+            "radius": 25
+          }
+        ]
+      },
+      "pyramid_ncc": {
+        "green": [
+          1,
+          8
+        ],
+        "red": [
+          1,
+          18
+        ],
+        "alignment_seconds": 0.072,
+        "overlap_box": [
+          1,
+          18,
+          397,
+          341
+        ],
+        "trace_green": [
+          {
+            "level": 1,
+            "shape": [
+              171,
+              199
+            ],
+            "shift": [
+              1,
+              4
+            ],
+            "score": 0.9845987340624656,
+            "sampling_step": 1,
+            "radius": 15
+          },
+          {
+            "level": 0,
+            "shape": [
+              341,
+              397
+            ],
+            "shift": [
+              1,
+              8
+            ],
+            "score": 0.9821052065619077,
+            "sampling_step": 1,
+            "radius": 2
+          }
+        ],
+        "trace_red": [
+          {
+            "level": 1,
+            "shape": [
+              171,
+              199
+            ],
+            "shift": [
+              1,
+              9
+            ],
+            "score": 0.9752590425694306,
+            "sampling_step": 1,
+            "radius": 15
+          },
+          {
+            "level": 0,
+            "shape": [
+              341,
+              397
+            ],
+            "shift": [
+              1,
+              18
+            ],
+            "score": 0.971495355878904,
+            "sampling_step": 1,
+            "radius": 2
+          }
+        ]
+      },
+      "pyramid_l2": {
+        "green": [
+          1,
+          8
+        ],
+        "red": [
+          1,
+          18
+        ],
+        "alignment_seconds": 0.0474,
+        "overlap_box": [
+          1,
+          18,
+          397,
+          341
+        ],
+        "trace_green": [
+          {
+            "level": 1,
+            "shape": [
+              171,
+              199
+            ],
+            "shift": [
+              1,
+              4
+            ],
+            "score": -0.010325963500070746,
+            "sampling_step": 1,
+            "radius": 15
+          },
+          {
+            "level": 0,
+            "shape": [
+              341,
+              397
+            ],
+            "shift": [
+              1,
+              8
+            ],
+            "score": -0.01184633905402472,
+            "sampling_step": 1,
+            "radius": 2
+          }
+        ],
+        "trace_red": [
+          {
+            "level": 1,
+            "shape": [
+              171,
+              199
+            ],
+            "shift": [
+              1,
+              9
+            ],
+            "score": -0.029013792165340873,
+            "sampling_step": 1,
+            "radius": 15
+          },
+          {
+            "level": 0,
+            "shape": [
+              341,
+              397
+            ],
+            "shift": [
+              1,
+              18
+            ],
+            "score": -0.031533948440225,
+            "sampling_step": 1,
+            "radius": 2
+          }
+        ]
+      },
+      "edges_ncc": {
+        "green": [
+          1,
+          8
+        ],
+        "red": [
+          1,
+          18
+        ],
+        "alignment_seconds": 0.072,
+        "overlap_box": [
+          1,
+          18,
+          397,
+          341
+        ],
+        "trace_green": [
+          {
+            "level": 1,
+            "shape": [
+              171,
+              199
+            ],
+            "shift": [
+              0,
+              4
+            ],
+            "score": 0.9277607238155011,
+            "sampling_step": 1,
+            "radius": 15
+          },
+          {
+            "level": 0,
+            "shape": [
+              341,
+              397
+            ],
+            "shift": [
+              1,
+              8
+            ],
+            "score": 0.8786424581804398,
+            "sampling_step": 1,
+            "radius": 2
+          }
+        ],
+        "trace_red": [
+          {
+            "level": 1,
+            "shape": [
+              171,
+              199
+            ],
+            "shift": [
+              1,
+              9
+            ],
+            "score": 0.8802523925627336,
+            "sampling_step": 1,
+            "radius": 15
+          },
+          {
+            "level": 0,
+            "shape": [
+              341,
+              397
+            ],
+            "shift": [
+              1,
+              18
+            ],
+            "score": 0.8218773292233286,
+            "sampling_step": 1,
+            "radius": 2
+          }
+        ]
+      }
+    },
+    "enhancements": {
+      "crop_box_in_overlap": [
+        11,
+        9,
+        373,
+        323
+      ],
+      "gray_world_gains_rgb": [
+        0.9501587958467476,
+        0.9999106568814917,
+        1.0698176909077395
+      ],
+      "contrast_percentiles": [
+        0.058735087513923645,
+        0.9450135827064514
+      ],
+      "retained_area_fraction": 0.8396
+    }
+  },
+  {
+    "id": "01861a",
+    "group": "provided",
+    "channel_shape": [
+      3228,
+      3741
+    ],
+    "methods": {
+      "pyramid_ncc": {
+        "green": [
+          39,
+          71
+        ],
+        "red": [
+          63,
+          148
+        ],
+        "alignment_seconds": 0.7305,
+        "overlap_box": [
+          63,
+          148,
+          3741,
+          3228
+        ],
+        "trace_green": [
+          {
+            "level": 4,
+            "shape": [
+              202,
+              234
+            ],
+            "shift": [
+              2,
+              4
+            ],
+            "score": 0.9896484743282905,
+            "sampling_step": 1,
+            "radius": 15
+          },
+          {
+            "level": 3,
+            "shape": [
+              404,
+              468
+            ],
+            "shift": [
+              5,
+              9
+            ],
+            "score": 0.9899059903086301,
+            "sampling_step": 1,
+            "radius": 2
+          },
+          {
+            "level": 2,
+            "shape": [
+              807,
+              936
+            ],
+            "shift": [
+              10,
+              18
+            ],
+            "score": 0.9886054865789392,
+            "sampling_step": 2,
+            "radius": 2
+          },
+          {
+            "level": 1,
+            "shape": [
+              1614,
+              1871
+            ],
+            "shift": [
+              19,
+              36
+            ],
+            "score": 0.9875404130576814,
+            "sampling_step": 3,
+            "radius": 2
+          },
+          {
+            "level": 0,
+            "shape": [
+              3228,
+              3741
+            ],
+            "shift": [
+              39,
+              71
+            ],
+            "score": 0.9868979650963993,
+            "sampling_step": 6,
+            "radius": 2
+          }
+        ],
+        "trace_red": [
+          {
+            "level": 4,
+            "shape": [
+              202,
+              234
+            ],
+            "shift": [
+              4,
+              9
+            ],
+            "score": 0.9808009390957714,
+            "sampling_step": 1,
+            "radius": 15
+          },
+          {
+            "level": 3,
+            "shape": [
+              404,
+              468
+            ],
+            "shift": [
+              8,
+              18
+            ],
+            "score": 0.9789322792578318,
+            "sampling_step": 1,
+            "radius": 2
+          },
+          {
+            "level": 2,
+            "shape": [
+              807,
+              936
+            ],
+            "shift": [
+              16,
+              37
+            ],
+            "score": 0.9782222031307098,
+            "sampling_step": 2,
+            "radius": 2
+          },
+          {
+            "level": 1,
+            "shape": [
+              1614,
+              1871
+            ],
+            "shift": [
+              31,
+              74
+            ],
+            "score": 0.9772137656010869,
+            "sampling_step": 3,
+            "radius": 2
+          },
+          {
+            "level": 0,
+            "shape": [
+              3228,
+              3741
+            ],
+            "shift": [
+              63,
+              148
+            ],
+            "score": 0.9764973817970107,
+            "sampling_step": 6,
+            "radius": 2
+          }
+        ]
+      },
+      "pyramid_l2": {
+        "green": [
+          38,
+          71
+        ],
+        "red": [
+          62,
+          148
+        ],
+        "alignment_seconds": 0.7479,
+        "overlap_box": [
+          62,
+          148,
+          3741,
+          3228
+        ],
+        "trace_green": [
+          {
+            "level": 4,
+            "shape": [
+              202,
+              234
+            ],
+            "shift": [
+              2,
+              4
+            ],
+            "score": -0.013706220563794998,
+            "sampling_step": 1,
+            "radius": 15
+          },
+          {
+            "level": 3,
+            "shape": [
+              404,
+              468
+            ],
+            "shift": [
+              5,
+              9
+            ],
+            "score": -0.013822387379966477,
+            "sampling_step": 1,
+            "radius": 2
+          },
+          {
+            "level": 2,
+            "shape": [
+              807,
+              936
+            ],
+            "shift": [
+              10,
+              18
+            ],
+            "score": -0.014737901061697907,
+            "sampling_step": 2,
+            "radius": 2
+          },
+          {
+            "level": 1,
+            "shape": [
+              1614,
+              1871
+            ],
+            "shift": [
+              19,
+              36
+            ],
+            "score": -0.015408444565811703,
+            "sampling_step": 3,
+            "radius": 2
+          },
+          {
+            "level": 0,
+            "shape": [
+              3228,
+              3741
+            ],
+            "shift": [
+              38,
+              71
+            ],
+            "score": -0.015805346759658397,
+            "sampling_step": 6,
+            "radius": 2
+          }
+        ],
+        "trace_red": [
+          {
+            "level": 4,
+            "shape": [
+              202,
+              234
+            ],
+            "shift": [
+              4,
+              9
+            ],
+            "score": -0.035351826620779805,
+            "sampling_step": 1,
+            "radius": 15
+          },
+          {
+            "level": 3,
+            "shape": [
+              404,
+              468
+            ],
+            "shift": [
+              8,
+              19
+            ],
+            "score": -0.03679189588782258,
+            "sampling_step": 1,
+            "radius": 2
+          },
+          {
+            "level": 2,
+            "shape": [
+              807,
+              936
+            ],
+            "shift": [
+              16,
+              37
+            ],
+            "score": -0.03728381762145683,
+            "sampling_step": 2,
+            "radius": 2
+          },
+          {
+            "level": 1,
+            "shape": [
+              1614,
+              1871
+            ],
+            "shift": [
+              31,
+              74
+            ],
+            "score": -0.03791975400410735,
+            "sampling_step": 3,
+            "radius": 2
+          },
+          {
+            "level": 0,
+            "shape": [
+              3228,
+              3741
+            ],
+            "shift": [
+              62,
+              148
+            ],
+            "score": -0.03839446544018253,
+            "sampling_step": 6,
+            "radius": 2
+          }
+        ]
+      },
+      "edges_ncc": {
+        "green": [
+          39,
+          71
+        ],
+        "red": [
+          62,
+          147
+        ],
+        "alignment_seconds": 1.1477,
+        "overlap_box": [
+          62,
+          147,
+          3741,
+          3228
+        ],
+        "trace_green": [
+          {
+            "level": 4,
+            "shape": [
+              202,
+              234
+            ],
+            "shift": [
+              2,
+              4
+            ],
+            "score": 0.886854063887132,
+            "sampling_step": 1,
+            "radius": 15
+          },
+          {
+            "level": 3,
+            "shape": [
+              404,
+              468
+            ],
+            "shift": [
+              5,
+              9
+            ],
+            "score": 0.9081836340837409,
+            "sampling_step": 1,
+            "radius": 2
+          },
+          {
+            "level": 2,
+            "shape": [
+              807,
+              936
+            ],
+            "shift": [
+              10,
+              18
+            ],
+            "score": 0.8511653136241107,
+            "sampling_step": 2,
+            "radius": 2
+          },
+          {
+            "level": 1,
+            "shape": [
+              1614,
+              1871
+            ],
+            "shift": [
+              19,
+              36
+            ],
+            "score": 0.7680931455854636,
+            "sampling_step": 3,
+            "radius": 2
+          },
+          {
+            "level": 0,
+            "shape": [
+              3228,
+              3741
+            ],
+            "shift": [
+              39,
+              71
+            ],
+            "score": 0.714904901718141,
+            "sampling_step": 6,
+            "radius": 2
+          }
+        ],
+        "trace_red": [
+          {
+            "level": 4,
+            "shape": [
+              202,
+              234
+            ],
+            "shift": [
+              4,
+              9
+            ],
+            "score": 0.8445831246820767,
+            "sampling_step": 1,
+            "radius": 15
+          },
+          {
+            "level": 3,
+            "shape": [
+              404,
+              468
+            ],
+            "shift": [
+              8,
+              18
+            ],
+            "score": 0.8189640861990672,
+            "sampling_step": 1,
+            "radius": 2
+          },
+          {
+            "level": 2,
+            "shape": [
+              807,
+              936
+            ],
+            "shift": [
+              16,
+              37
+            ],
+            "score": 0.8027778839927975,
+            "sampling_step": 2,
+            "radius": 2
+          },
+          {
+            "level": 1,
+            "shape": [
+              1614,
+              1871
+            ],
+            "shift": [
+              31,
+              74
+            ],
+            "score": 0.749023850025429,
+            "sampling_step": 3,
+            "radius": 2
+          },
+          {
+            "level": 0,
+            "shape": [
+              3228,
+              3741
+            ],
+            "shift": [
+              62,
+              147
+            ],
+            "score": 0.7012100585863201,
+            "sampling_step": 6,
+            "radius": 2
+          }
+        ]
+      }
+    },
+    "enhancements": {
+      "crop_box_in_overlap": [
+        189,
+        15,
+        3524,
+        3013
+      ],
+      "gray_world_gains_rgb": [
+        0.9529123502981998,
+        1.0009465446220236,
+        1.0631024935079876
+      ],
+      "contrast_percentiles": [
+        0.11775841563940048,
+        0.9797219038009644
+      ],
+      "retained_area_fraction": 0.828
+    }
+  },
+  {
+    "id": "10131v",
+    "group": "provided",
+    "channel_shape": [
+      341,
+      400
+    ],
+    "methods": {
+      "single_ncc": {
+        "green": [
+          2,
+          6
+        ],
+        "red": [
+          3,
+          12
+        ],
+        "alignment_seconds": 0.6585,
+        "overlap_box": [
+          3,
+          12,
+          400,
+          341
+        ],
+        "trace_green": [
+          {
+            "level": 0,
+            "shape": [
+              341,
+              400
+            ],
+            "shift": [
+              2,
+              6
+            ],
+            "score": 0.9885633450234863,
+            "sampling_step": 1,
+            "radius": 25
+          }
+        ],
+        "trace_red": [
+          {
+            "level": 0,
+            "shape": [
+              341,
+              400
+            ],
+            "shift": [
+              3,
+              12
+            ],
+            "score": 0.9759908202434456,
+            "sampling_step": 1,
+            "radius": 25
+          }
+        ]
+      },
+      "single_l2": {
+        "green": [
+          2,
+          6
+        ],
+        "red": [
+          3,
+          12
+        ],
+        "alignment_seconds": 0.5094,
+        "overlap_box": [
+          3,
+          12,
+          400,
+          341
+        ],
+        "trace_green": [
+          {
+            "level": 0,
+            "shape": [
+              341,
+              400
+            ],
+            "shift": [
+              2,
+              6
+            ],
+            "score": -0.02698789859023462,
+            "sampling_step": 1,
+            "radius": 25
+          }
+        ],
+        "trace_red": [
+          {
+            "level": 0,
+            "shape": [
+              341,
+              400
+            ],
+            "shift": [
+              3,
+              12
+            ],
+            "score": -0.06617795222531578,
+            "sampling_step": 1,
+            "radius": 25
+          }
+        ]
+      },
+      "pyramid_ncc": {
+        "green": [
+          2,
+          6
+        ],
+        "red": [
+          3,
+          12
+        ],
+        "alignment_seconds": 0.1111,
+        "overlap_box": [
+          3,
+          12,
+          400,
+          341
+        ],
+        "trace_green": [
+          {
+            "level": 1,
+            "shape": [
+              171,
+              200
+            ],
+            "shift": [
+              1,
+              3
+            ],
+            "score": 0.9915113097392225,
+            "sampling_step": 1,
+            "radius": 15
+          },
+          {
+            "level": 0,
+            "shape": [
+              341,
+              400
+            ],
+            "shift": [
+              2,
+              6
+            ],
+            "score": 0.9885633450234863,
+            "sampling_step": 1,
+            "radius": 2
+          }
+        ],
+        "trace_red": [
+          {
+            "level": 1,
+            "shape": [
+              171,
+              200
+            ],
+            "shift": [
+              2,
+              6
+            ],
+            "score": 0.9781285654823074,
+            "sampling_step": 1,
+            "radius": 15
+          },
+          {
+            "level": 0,
+            "shape": [
+              341,
+              400
+            ],
+            "shift": [
+              3,
+              12
+            ],
+            "score": 0.9759908202434456,
+            "sampling_step": 1,
+            "radius": 2
+          }
+        ]
+      },
+      "pyramid_l2": {
+        "green": [
+          2,
+          6
+        ],
+        "red": [
+          3,
+          12
+        ],
+        "alignment_seconds": 0.0616,
+        "overlap_box": [
+          3,
+          12,
+          400,
+          341
+        ],
+        "trace_green": [
+          {
+            "level": 1,
+            "shape": [
+              171,
+              200
+            ],
+            "shift": [
+              1,
+              3
+            ],
+            "score": -0.024256054985446574,
+            "sampling_step": 1,
+            "radius": 15
+          },
+          {
+            "level": 0,
+            "shape": [
+              341,
+              400
+            ],
+            "shift": [
+              2,
+              6
+            ],
+            "score": -0.02698789859023462,
+            "sampling_step": 1,
+            "radius": 2
+          }
+        ],
+        "trace_red": [
+          {
+            "level": 1,
+            "shape": [
+              171,
+              200
+            ],
+            "shift": [
+              1,
+              6
+            ],
+            "score": -0.06404810520376121,
+            "sampling_step": 1,
+            "radius": 15
+          },
+          {
+            "level": 0,
+            "shape": [
+              341,
+              400
+            ],
+            "shift": [
+              3,
+              12
+            ],
+            "score": -0.06617795222531578,
+            "sampling_step": 1,
+            "radius": 2
+          }
+        ]
+      },
+      "edges_ncc": {
+        "green": [
+          2,
+          6
+        ],
+        "red": [
+          3,
+          12
+        ],
+        "alignment_seconds": 0.0843,
+        "overlap_box": [
+          3,
+          12,
+          400,
+          341
+        ],
+        "trace_green": [
+          {
+            "level": 1,
+            "shape": [
+              171,
+              200
+            ],
+            "shift": [
+              1,
+              3
+            ],
+            "score": 0.9354867266357985,
+            "sampling_step": 1,
+            "radius": 15
+          },
+          {
+            "level": 0,
+            "shape": [
+              341,
+              400
+            ],
+            "shift": [
+              2,
+              6
+            ],
+            "score": 0.8566025786334917,
+            "sampling_step": 1,
+            "radius": 2
+          }
+        ],
+        "trace_red": [
+          {
+            "level": 1,
+            "shape": [
+              171,
+              200
+            ],
+            "shift": [
+              1,
+              6
+            ],
+            "score": 0.8578213588280014,
+            "sampling_step": 1,
+            "radius": 15
+          },
+          {
+            "level": 0,
+            "shape": [
+              341,
+              400
+            ],
+            "shift": [
+              3,
+              12
+            ],
+            "score": 0.813430003252789,
+            "sampling_step": 1,
+            "radius": 2
+          }
+        ]
+      }
+    },
+    "enhancements": {
+      "crop_box_in_overlap": [
+        17,
+        13,
+        374,
+        329
+      ],
+      "gray_world_gains_rgb": [
+        0.9461045858809068,
+        0.992983162244916,
+        1.0875
+      ],
+      "contrast_percentiles": [
+        0.14073529839515686,
+        1.0
+      ],
+      "retained_area_fraction": 0.8271
+    }
+  },
+  {
+    "id": "31421v",
+    "group": "provided",
+    "channel_shape": [
+      341,
+      398
+    ],
+    "methods": {
+      "single_ncc": {
+        "green": [
+          0,
+          8
+        ],
+        "red": [
+          0,
+          13
+        ],
+        "alignment_seconds": 0.6173,
+        "overlap_box": [
+          0,
+          13,
+          398,
+          341
+        ],
+        "trace_green": [
+          {
+            "level": 0,
+            "shape": [
+              341,
+              398
+            ],
+            "shift": [
+              0,
+              8
+            ],
+            "score": 0.9967516371295737,
+            "sampling_step": 1,
+            "radius": 25
+          }
+        ],
+        "trace_red": [
+          {
+            "level": 0,
+            "shape": [
+              341,
+              398
+            ],
+            "shift": [
+              0,
+              13
+            ],
+            "score": 0.9883500789787563,
+            "sampling_step": 1,
+            "radius": 25
+          }
+        ]
+      },
+      "single_l2": {
+        "green": [
+          0,
+          8
+        ],
+        "red": [
+          0,
+          13
+        ],
+        "alignment_seconds": 0.3714,
+        "overlap_box": [
+          0,
+          13,
+          398,
+          341
+        ],
+        "trace_green": [
+          {
+            "level": 0,
+            "shape": [
+              341,
+              398
+            ],
+            "shift": [
+              0,
+              8
+            ],
+            "score": -0.018571244506442035,
+            "sampling_step": 1,
+            "radius": 25
+          }
+        ],
+        "trace_red": [
+          {
+            "level": 0,
+            "shape": [
+              341,
+              398
+            ],
+            "shift": [
+              0,
+              13
+            ],
+            "score": -0.0265510968786233,
+            "sampling_step": 1,
+            "radius": 25
+          }
+        ]
+      },
+      "pyramid_ncc": {
+        "green": [
+          0,
+          8
+        ],
+        "red": [
+          0,
+          13
+        ],
+        "alignment_seconds": 0.0846,
+        "overlap_box": [
+          0,
+          13,
+          398,
+          341
+        ],
+        "trace_green": [
+          {
+            "level": 1,
+            "shape": [
+              171,
+              199
+            ],
+            "shift": [
+              0,
+              4
+            ],
+            "score": 0.9980516878958733,
+            "sampling_step": 1,
+            "radius": 15
+          },
+          {
+            "level": 0,
+            "shape": [
+              341,
+              398
+            ],
+            "shift": [
+              0,
+              8
+            ],
+            "score": 0.9967516371295737,
+            "sampling_step": 1,
+            "radius": 2
+          }
+        ],
+        "trace_red": [
+          {
+            "level": 1,
+            "shape": [
+              171,
+              199
+            ],
+            "shift": [
+              0,
+              7
+            ],
+            "score": 0.9895944715808324,
+            "sampling_step": 1,
+            "radius": 15
+          },
+          {
+            "level": 0,
+            "shape": [
+              341,
+              398
+            ],
+            "shift": [
+              0,
+              13
+            ],
+            "score": 0.9883500789787563,
+            "sampling_step": 1,
+            "radius": 2
+          }
+        ]
+      },
+      "pyramid_l2": {
+        "green": [
+          0,
+          8
+        ],
+        "red": [
+          0,
+          13
+        ],
+        "alignment_seconds": 0.0472,
+        "overlap_box": [
+          0,
+          13,
+          398,
+          341
+        ],
+        "trace_green": [
+          {
+            "level": 1,
+            "shape": [
+              171,
+              199
+            ],
+            "shift": [
+              0,
+              4
+            ],
+            "score": -0.017566115637926986,
+            "sampling_step": 1,
+            "radius": 15
+          },
+          {
+            "level": 0,
+            "shape": [
+              341,
+              398
+            ],
+            "shift": [
+              0,
+              8
+            ],
+            "score": -0.018571244506442035,
+            "sampling_step": 1,
+            "radius": 2
+          }
+        ],
+        "trace_red": [
+          {
+            "level": 1,
+            "shape": [
+              171,
+              199
+            ],
+            "shift": [
+              0,
+              7
+            ],
+            "score": -0.025686873936310795,
+            "sampling_step": 1,
+            "radius": 15
+          },
+          {
+            "level": 0,
+            "shape": [
+              341,
+              398
+            ],
+            "shift": [
+              0,
+              13
+            ],
+            "score": -0.0265510968786233,
+            "sampling_step": 1,
+            "radius": 2
+          }
+        ]
+      },
+      "edges_ncc": {
+        "green": [
+          0,
+          8
+        ],
+        "red": [
+          0,
+          13
+        ],
+        "alignment_seconds": 0.0729,
+        "overlap_box": [
+          0,
+          13,
+          398,
+          341
+        ],
+        "trace_green": [
+          {
+            "level": 1,
+            "shape": [
+              171,
+              199
+            ],
+            "shift": [
+              0,
+              4
+            ],
+            "score": 0.9785216917024834,
+            "sampling_step": 1,
+            "radius": 15
+          },
+          {
+            "level": 0,
+            "shape": [
+              341,
+              398
+            ],
+            "shift": [
+              0,
+              8
+            ],
+            "score": 0.9289983464833799,
+            "sampling_step": 1,
+            "radius": 2
+          }
+        ],
+        "trace_red": [
+          {
+            "level": 1,
+            "shape": [
+              171,
+              199
+            ],
+            "shift": [
+              0,
+              7
+            ],
+            "score": 0.9461119752262526,
+            "sampling_step": 1,
+            "radius": 15
+          },
+          {
+            "level": 0,
+            "shape": [
+              341,
+              398
+            ],
+            "shift": [
+              0,
+              13
+            ],
+            "score": 0.9208219282852627,
+            "sampling_step": 1,
+            "radius": 2
+          }
+        ]
+      }
+    },
+    "enhancements": {
+      "crop_box_in_overlap": [
+        9,
+        1,
+        386,
+        328
+      ],
+      "gray_world_gains_rgb": [
+        1.0278152896645525,
+        1.0271270269239203,
+        0.9555295240237691
+      ],
+      "contrast_percentiles": [
+        0.033724572509527206,
+        0.8093897104263306
+      ],
+      "retained_area_fraction": 0.9083
+    }
+  }
+]

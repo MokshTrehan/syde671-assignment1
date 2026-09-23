@@ -1,0 +1,20 @@
+{
+  "python": "3.12.14",
+  "platform": "macOS-15.5-arm64-arm-64bit",
+  "processor": "arm64",
+  "numpy": "2.3.5",
+  "parameters": {
+    "single_radius": 25,
+    "coarse_radius": 15,
+    "refine_radius": 2,
+    "pyramid_max_coarse_side": 256,
+    "score_border_fraction": 0.12,
+    "score_max_side": 512,
+    "crop_max_fraction": 0.12,
+    "contrast_percentiles": [
+      1,
+      99
+    ]
+  },
+  "pillow": "12.3.0"
+}
