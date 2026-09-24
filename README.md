@@ -5,3 +5,5 @@ Project webpage for color-channel alignment of Prokudin-Gorskii photographs.
 Includes L2 and NCC baselines, improved intensity pyramids with per-level standardization and full-pixel scoring, smoothed-edge alignment with subpixel refinement, automatic cropping, white balance, and contrast improvements. Source and archive attribution are included in the report.
 
 Publish from the main branch root using GitHub Pages.
+
+The report also includes a 25-region audit of all six large scans, spatial validation of affine corrections, selected optional results for the two borderline scans, and all rejected-candidate decisions.
